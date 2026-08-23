@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">PlateHunter staged ALPR pipeline</title>
+  <desc id="desc">A full frame passes through a YOLO plate detector, an eight-character detector, ConvNeXt classification, format and confidence validation, then image output or video tracking with Kalman filtering and Hungarian matching.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090e17"/><stop offset="1" stop-color="#0c1420"/></linearGradient>
+    <pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#6795d8" stroke-opacity=".055"/></pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#71a9ff" fill-opacity=".6"/></marker>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/><rect width="1200" height="340" rx="24" fill="url(#g)"/>
+  <g font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="44" y="48" fill="#e9f2ff" font-size="22" font-weight="750">PLATEHUNTER / IRANIAN ALPR PIPELINE</text>
+    <text x="44" y="72" fill="#8198b7" font-size="13">three learned stages + explicit rejection rules + temporal identity for video</text>
+  </g>
+  <g fill="none" stroke="#71a9ff" stroke-opacity=".42" stroke-width="1.5" marker-end="url(#arrow)">
+    <path d="M157 166H207"/><path d="M342 166H392"/><path d="M542 166H592"/><path d="M742 166H792"/><path d="M942 166H990"/>
+  </g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <g transform="translate(44 126)"><rect width="113" height="80" rx="13" fill="#101b2a" stroke="#71a9ff" stroke-opacity=".24"/><text x="16" y="31" fill="#edf5ff" font-size="12" font-weight="700">FRAME</text><text x="16" y="52" fill="#8299b8" font-size="10">image/video</text></g>
+    <g transform="translate(207 116)"><rect width="135" height="100" rx="13" fill="#101b2a" stroke="#71a9ff" stroke-opacity=".28"/><text x="15" y="29" fill="#edf5ff" font-size="11.5" font-weight="700">YOLO PLATE</text><text x="15" y="50" fill="#8299b8" font-size="9.8">detect + crop</text><rect x="18" y="65" width="64" height="20" fill="none" stroke="#71a9ff" stroke-opacity=".5"/></g>
+    <g transform="translate(392 116)"><rect width="150" height="100" rx="13" fill="#101b2a" stroke="#71a9ff" stroke-opacity=".28"/><text x="15" y="29" fill="#edf5ff" font-size="11.5" font-weight="700">YOLO CHARS</text><text x="15" y="50" fill="#8299b8" font-size="9.8">exactly 8 boxes</text><g fill="none" stroke="#71a9ff" stroke-opacity=".48"><rect x="16" y="66" width="10" height="18"/><rect x="31" y="66" width="10" height="18"/><rect x="46" y="66" width="10" height="18"/><rect x="61" y="66" width="10" height="18"/><rect x="76" y="66" width="10" height="18"/><rect x="91" y="66" width="10" height="18"/><rect x="106" y="66" width="10" height="18"/><rect x="121" y="66" width="10" height="18"/></g></g>
+    <g transform="translate(592 116)"><rect width="150" height="100" rx="13" fill="#101b2a" stroke="#71a9ff" stroke-opacity=".28"/><text x="15" y="29" fill="#edf5ff" font-size="11.5" font-weight="700">CONVNEXT</text><text x="15" y="50" fill="#8299b8" font-size="9.8">32 classes</text><text x="15" y="72" fill="#a8bdd7" font-size="10">ImageNet init</text></g>
+    <g transform="translate(792 116)"><rect width="150" height="100" rx="13" fill="#101b2a" stroke="#71a9ff" stroke-opacity=".28"/><text x="15" y="29" fill="#edf5ff" font-size="11.5" font-weight="700">VALIDATE</text><text x="15" y="50" fill="#8299b8" font-size="9.7">DD L DDD DD</text><text x="15" y="69" fill="#8299b8" font-size="9.7">geometric mean</text><text x="15" y="86" fill="#6f87a7" font-size="9.2">reject visibly</text></g>
+    <g transform="translate(990 104)"><rect width="166" height="124" rx="13" fill="#101b2a" stroke="#71a9ff" stroke-opacity=".3"/><text x="15" y="28" fill="#edf5ff" font-size="11.2" font-weight="700">OUTPUT / VIDEO</text><text x="15" y="50" fill="#8299b8" font-size="9.7">Kalman 8D motion</text><text x="15" y="68" fill="#8299b8" font-size="9.7">Hungarian assignment</text><text x="15" y="86" fill="#8299b8" font-size="9.7">OCR consensus</text><text x="15" y="106" fill="#6f87a7" font-size="9.2">Apple MPS path</text></g>
+  </g>
+  <g font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="44" y="290" fill="#7388a4" font-size="12">Repository boundary: training code and evaluation artifacts are public; the private training dataset and trained model weights are not included.</text>
+    <text x="44" y="312" fill="#5f748f" font-size="11">Implementation source is authoritative for the plate format: the letter/symbol is at zero-based position 2.</text>
+  </g>
+</svg>
