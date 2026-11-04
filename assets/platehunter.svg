@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="t d">
+  <title id="t">03 · PlateHunter — Iranian license-plate recognition</title>
+  <desc id="d">Project card: an Iranian plate is detected by YOLO, split into eight character boxes, classified by ConvNeXt and validated against the DD L DDD DD format, then tracked across video with a Kalman filter.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050a14"/><stop offset=".6" stop-color="#081022"/><stop offset="1" stop-color="#050912"/></linearGradient>
+    <radialGradient id="glow" cx="76%" cy="40%" r="50%"><stop stop-color="#3b82f6" stop-opacity=".2"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#e2e8f0"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#60a5fa" stop-opacity="0"/><stop offset=".5" stop-color="#60a5fa" stop-opacity=".55"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0"/></linearGradient>
+    <pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#60a5fa" stroke-opacity=".05"/></pattern>
+    <filter id="glw" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="sh" x="-10%" y="-20%" width="120%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".55"/></filter>
+    <clipPath id="c"><rect width="1200" height="430" rx="26"/></clipPath>
+    <clipPath id="pc"><rect x="40" y="72" width="520" height="112" rx="10"/></clipPath>
+    <style>
+      .s{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Arial,sans-serif}
+      .m{font-family:'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace}
+      .fa{font-family:'Vazirmatn','Segoe UI','Tahoma','Geeza Pro','Noto Sans Arabic','DejaVu Sans',sans-serif}
+      .sweep{animation:sweep 6s ease-in-out infinite}
+      @keyframes sweep{0%{transform:translateX(-120px);opacity:0}5%{opacity:1}25%{transform:translateX(560px);opacity:1}28%,100%{transform:translateX(560px);opacity:0}}
+      .bb{opacity:0;animation:bb 6s infinite}
+      @keyframes bb{0%,20%{opacity:0}24%,92%{opacity:1}100%{opacity:0}}
+      .cb{opacity:0;animation:cb 6s infinite}
+      @keyframes cb{0%,30%{opacity:0;transform:translateY(-4px)}34%,92%{opacity:1;transform:none}100%{opacity:0}}
+      .lab{opacity:0;animation:lab 6s infinite}
+      @keyframes lab{0%,52%{opacity:0}56%,92%{opacity:1}100%{opacity:0}}
+      .ok{opacity:0;animation:ok 6s infinite}
+      @keyframes ok{0%,68%{opacity:0;transform:scale(.8)}72%,92%{opacity:1;transform:scale(1)}100%{opacity:0}}
+      .ok{transform-box:fill-box;transform-origin:center}
+      .step{animation:step 6s infinite}
+      @keyframes step{0%,100%{fill:#0d1a33;stroke-opacity:.25}4%,14%{fill:#1d3b78;stroke-opacity:.9}20%{fill:#0d1a33;stroke-opacity:.25}}
+      .trk{stroke-dasharray:4 6;animation:trk 1s linear infinite}
+      @keyframes trk{to{stroke-dashoffset:-20}}
+      .car{animation:car 6s ease-in-out infinite}
+      @keyframes car{0%{transform:translate(0,0);opacity:0}8%{opacity:1}85%{opacity:1}100%{transform:translate(108px,-18px);opacity:0}}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}.bb,.cb,.lab,.ok{opacity:1}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="430" fill="url(#bg)"/>
+    <rect width="1200" height="430" fill="url(#g)"/>
+    <rect width="1200" height="430" fill="url(#glow)"/>
+
+    <!-- left -->
+    <text class="s" x="528" y="200" text-anchor="end" font-size="150" font-weight="900" fill="none" stroke="#60a5fa" stroke-opacity=".15" stroke-width="1.5" letter-spacing="-6">03</text>
+    <g class="m" font-size="12" letter-spacing="2.2" fill="#93c5fd">
+      <rect x="48" y="44" width="236" height="28" rx="14" fill="#0c1a35" stroke="#60a5fa" stroke-opacity=".4"/>
+      <text x="64" y="63">VISION · PYTORCH · YOLO</text>
+    </g>
+    <text class="s" x="46" y="190" font-size="62" font-weight="800" letter-spacing="-2.5" fill="#eff6ff">PlateHunter</text>
+    <text class="s" x="48" y="226" font-size="19" fill="#8aa2c8">Iranian ALPR built as explicit stages —</text>
+    <text class="s" x="48" y="252" font-size="19" fill="#8aa2c8">not one opaque <tspan fill="#dbeafe" font-weight="700">“OCR model.”</tspan></text>
+    <g class="m" font-size="13.5" fill="#b4c6e4">
+      <g transform="translate(48 292)"><circle cx="6" cy="-5" r="4" fill="#60a5fa"/><text x="22">YOLO plate → YOLO chars → ConvNeXt</text></g>
+      <g transform="translate(48 320)"><circle cx="6" cy="-5" r="4" fill="#a78bfa"/><text x="22">format + geometric-mean confidence gate</text></g>
+      <g transform="translate(48 348)"><circle cx="6" cy="-5" r="4" fill="#22d3ee"/><text x="22">8D Kalman + Hungarian video tracking</text></g>
+      <g transform="translate(48 376)"><circle cx="6" cy="-5" r="4" fill="#f472b6"/><text x="22">track-level OCR consensus · Apple MPS</text></g>
+    </g>
+
+    <!-- right panel -->
+    <g transform="translate(560 40)">
+      <rect width="600" height="350" rx="22" fill="#08122a" stroke="#60a5fa" stroke-opacity=".24"/>
+      <g class="m" font-size="11" letter-spacing="1.6" fill="#5b739c">
+        <text x="26" y="36">INFERENCE · FRAME 0412</text>
+        <circle cx="560" cy="32" r="4" fill="#ef4444"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+        <text x="548" y="36" text-anchor="end" fill="#7d93b8">REC</text>
+      </g>
+
+      <!-- plate -->
+      <g filter="url(#sh)">
+        <rect x="40" y="72" width="520" height="112" rx="10" fill="url(#plate)" stroke="#0f172a" stroke-width="3"/>
+      </g>
+      <g clip-path="url(#pc)">
+        <rect x="40" y="72" width="54" height="112" fill="#1d4ed8"/>
+        <rect x="52" y="90" width="30" height="7" fill="#16a34a"/><rect x="52" y="97" width="30" height="7" fill="#fff"/><rect x="52" y="104" width="30" height="7" fill="#dc2626"/>
+        <g class="m" font-size="11" font-weight="700" fill="#fff" text-anchor="middle"><text x="67" y="148">I.R.</text><text x="67" y="164">IRAN</text></g>
+        <line x1="452" y1="72" x2="452" y2="184" stroke="#0f172a" stroke-width="3"/>
+      </g>
+      <g class="fa" fill="#0b1220" font-weight="700" text-anchor="middle">
+        <g font-size="64">
+          <text x="128" y="154">۱</text><text x="176" y="154">۲</text>
+          <text x="238" y="150">ب</text>
+          <text x="300" y="154">۳</text><text x="348" y="154">۴</text><text x="396" y="154">۵</text>
+        </g>
+        <text x="506" y="102" font-size="15" font-weight="600">ایران</text>
+        <g font-size="48"><text x="486" y="164">۶</text><text x="526" y="164">۷</text></g>
+      </g>
+
+      <!-- scanning beam -->
+      <g class="sweep"><rect x="0" y="66" width="80" height="124" fill="url(#beam)"/></g>
+
+      <!-- plate bbox -->
+      <g class="bb" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" filter="url(#glw)">
+        <path d="M30 86 V62 H54 M546 62 H570 V86 M570 170 V194 H546 M54 194 H30 V170"/>
+      </g>
+      <g class="bb m" font-size="11" font-weight="700">
+        <rect x="30" y="44" width="88" height="18" rx="4" fill="#22d3ee"/>
+        <text x="38" y="57" fill="#04111f">PLATE ✓</text>
+      </g>
+
+      <!-- char boxes -->
+      <g fill="none" stroke="#a78bfa" stroke-width="2" filter="url(#glw)">
+        <rect class="cb" style="animation-delay:0s" x="106" y="92" width="44" height="76" rx="3"/>
+        <rect class="cb" style="animation-delay:.08s" x="154" y="92" width="44" height="76" rx="3"/>
+        <rect class="cb" style="animation-delay:.16s" x="208" y="92" width="60" height="76" rx="3" stroke="#f472b6"/>
+        <rect class="cb" style="animation-delay:.24s" x="278" y="92" width="44" height="76" rx="3"/>
+        <rect class="cb" style="animation-delay:.32s" x="326" y="92" width="44" height="76" rx="3"/>
+        <rect class="cb" style="animation-delay:.40s" x="374" y="92" width="44" height="76" rx="3"/>
+        <rect class="cb" style="animation-delay:.48s" x="466" y="114" width="40" height="60" rx="3"/>
+        <rect class="cb" style="animation-delay:.56s" x="506" y="114" width="40" height="60" rx="3"/>
+      </g>
+
+      <!-- classified labels -->
+      <g class="m" font-size="13" font-weight="700" text-anchor="middle">
+        <g class="lab" fill="#c4b5fd">
+          <text x="128" y="212">1</text><text x="176" y="212">2</text>
+          <text x="238" y="212" fill="#f9a8d4">B</text>
+          <text x="300" y="212">3</text><text x="348" y="212">4</text><text x="396" y="212">5</text>
+          <text x="486" y="212">6</text><text x="526" y="212">7</text>
+        </g>
+        <g class="lab" font-size="9.5" font-weight="400" fill="#5b739c">
+          <text x="128" y="226">D</text><text x="176" y="226">D</text><text x="238" y="226">L</text><text x="300" y="226">D</text><text x="348" y="226">D</text><text x="396" y="226">D</text><text x="486" y="226">D</text><text x="526" y="226">D</text>
+        </g>
+      </g>
+
+      <!-- verdict -->
+      <g class="ok">
+        <rect x="380" y="240" width="194" height="34" rx="10" fill="#052e1f" stroke="#34d399" stroke-opacity=".7"/>
+        <text class="m" x="477" y="262" font-size="12" font-weight="700" fill="#6ee7b7" text-anchor="middle">VALID · DD L DDD DD</text>
+      </g>
+
+      <!-- mini tracker -->
+      <g transform="translate(26 242)">
+        <rect width="200" height="34" rx="10" fill="#0b1830" stroke="#60a5fa" stroke-opacity=".2"/>
+        <path class="trk" d="M18 26 C60 26 80 10 126 8" fill="none" stroke="#22d3ee" stroke-opacity=".7" stroke-width="1.5"/>
+        <circle r="4.5" fill="#22d3ee" filter="url(#glw)"><animateMotion dur="3s" repeatCount="indefinite" path="M18 26 C60 26 80 10 126 8"/></circle>
+        <text class="m" x="190" y="22" font-size="10" fill="#7d93b8" text-anchor="end">track #07</text>
+      </g>
+
+      <!-- pipeline -->
+      <g class="m" font-size="10.5" text-anchor="middle" fill="#bfdbfe">
+        <g transform="translate(26 296)">
+          <rect class="step" style="animation-delay:0s" width="84" height="32" rx="9" fill="#0d1a33" stroke="#60a5fa"/><text x="42" y="20">frame</text>
+          <rect class="step" style="animation-delay:1s" x="93" width="84" height="32" rx="9" fill="#0d1a33" stroke="#60a5fa"/><text x="135" y="20">yolo·plate</text>
+          <rect class="step" style="animation-delay:2s" x="186" width="84" height="32" rx="9" fill="#0d1a33" stroke="#60a5fa"/><text x="228" y="20">yolo·chars</text>
+          <rect class="step" style="animation-delay:3s" x="279" width="84" height="32" rx="9" fill="#0d1a33" stroke="#60a5fa"/><text x="321" y="20">convnext</text>
+          <rect class="step" style="animation-delay:4s" x="372" width="84" height="32" rx="9" fill="#0d1a33" stroke="#60a5fa"/><text x="414" y="20">validate</text>
+          <rect class="step" style="animation-delay:5s" x="465" width="83" height="32" rx="9" fill="#0d1a33" stroke="#60a5fa"/><text x="506" y="20">kalman</text>
+        </g>
+      </g>
+    </g>
+    <rect x=".75" y=".75" width="1198.5" height="428.5" rx="25.5" fill="none" stroke="#60a5fa" stroke-opacity=".22"/>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="t d">
+  <title id="t">Technical orbit</title>
+  <desc id="d">Technologies used across Sam Afshar's projects arranged in three rotating orbits. Core: Python, NumPy, pandas. Intelligence: TensorFlow, PyTorch, Keras, scikit-learn, YOLO, ConvNeXt, OpenCV. Product and systems: FastAPI, REST, JavaScript, HTML, CSS, SciPy, EasyOCR, LSTM, Kalman filtering, Apple MPS.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06070d"/><stop offset=".5" stop-color="#0a0d18"/><stop offset="1" stop-color="#06070d"/></linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%"><stop stop-color="#7c5cff" stop-opacity=".55"/><stop offset=".45" stop-color="#22d3ee" stop-opacity=".14"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#94a3b8" fill-opacity=".08"/></pattern>
+    <filter id="glw" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="c"><rect width="1200" height="600" rx="26"/></clipPath>
+    <style>
+      .s{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Arial,sans-serif}
+      .m{font-family:'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace}
+      .orb{transform-origin:640px 300px;animation:spin linear infinite}
+      .cr{transform-box:fill-box;transform-origin:center;animation:spin linear infinite reverse}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      .pulse{transform-box:fill-box;transform-origin:center;animation:p 3.6s ease-in-out infinite}
+      @keyframes p{0%,100%{transform:scale(1);opacity:.8}50%{transform:scale(1.12);opacity:1}}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="600" fill="url(#bg)"/>
+    <rect width="1200" height="600" fill="url(#dots)"/>
+    <circle cx="640" cy="300" r="290" fill="url(#core)" opacity=".5"/>
+
+    <circle cx="640" cy="300" r="100" fill="none" stroke="#67e8f9" stroke-opacity=".22" stroke-dasharray="3 7"/>
+    <circle cx="640" cy="300" r="182" fill="none" stroke="#a78bfa" stroke-opacity=".22" stroke-dasharray="3 7"/>
+    <circle cx="640" cy="300" r="262" fill="none" stroke="#f472b6" stroke-opacity=".22" stroke-dasharray="3 7"/>
+    <g class="orb m" style="animation-duration:50s" font-size="12.5">
+      <g transform="translate(740.0 300.0)"><g class="cr" style="animation-duration:50s"><rect x="-35.2" y="-13" width="70.4" height="26" rx="13" fill="#0b1020" stroke="#67e8f9" stroke-opacity=".55"/><circle cx="-23.2" cy="0" r="3" fill="#67e8f9"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">Python</text></g></g>
+      <g transform="translate(590.0 386.6)"><g class="cr" style="animation-duration:50s"><rect x="-31.5" y="-13" width="63.0" height="26" rx="13" fill="#0b1020" stroke="#67e8f9" stroke-opacity=".55"/><circle cx="-19.5" cy="0" r="3" fill="#67e8f9"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">NumPy</text></g></g>
+      <g transform="translate(590.0 213.4)"><g class="cr" style="animation-duration:50s"><rect x="-35.2" y="-13" width="70.4" height="26" rx="13" fill="#0b1020" stroke="#67e8f9" stroke-opacity=".55"/><circle cx="-23.2" cy="0" r="3" fill="#67e8f9"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">pandas</text></g></g>
+    </g>
+    <g class="orb m" style="animation-duration:80s;animation-direction:reverse" font-size="12.5">
+      <g transform="translate(807.6 370.9)"><g class="cr" style="animation-duration:80s;animation-direction:normal"><rect x="-50.0" y="-13" width="100.0" height="26" rx="13" fill="#0b1020" stroke="#a78bfa" stroke-opacity=".55"/><circle cx="-38.0" cy="0" r="3" fill="#a78bfa"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">TensorFlow</text></g></g>
+      <g transform="translate(689.1 475.3)"><g class="cr" style="animation-duration:80s;animation-direction:normal"><rect x="-38.9" y="-13" width="77.8" height="26" rx="13" fill="#0b1020" stroke="#a78bfa" stroke-opacity=".55"/><circle cx="-26.9" cy="0" r="3" fill="#a78bfa"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">PyTorch</text></g></g>
+      <g transform="translate(533.6 447.7)"><g class="cr" style="animation-duration:80s;animation-direction:normal"><rect x="-31.5" y="-13" width="63.0" height="26" rx="13" fill="#0b1020" stroke="#a78bfa" stroke-opacity=".55"/><circle cx="-19.5" cy="0" r="3" fill="#a78bfa"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">Keras</text></g></g>
+      <g transform="translate(458.2 308.9)"><g class="cr" style="animation-duration:80s;animation-direction:normal"><rect x="-57.4" y="-13" width="114.8" height="26" rx="13" fill="#0b1020" stroke="#a78bfa" stroke-opacity=".55"/><circle cx="-45.4" cy="0" r="3" fill="#a78bfa"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">scikit-learn</text></g></g>
+      <g transform="translate(519.7 163.4)"><g class="cr" style="animation-duration:80s;animation-direction:normal"><rect x="-27.8" y="-13" width="55.6" height="26" rx="13" fill="#0b1020" stroke="#a78bfa" stroke-opacity=".55"/><circle cx="-15.8" cy="0" r="3" fill="#a78bfa"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">YOLO</text></g></g>
+      <g transform="translate(671.8 120.8)"><g class="cr" style="animation-duration:80s;animation-direction:normal"><rect x="-42.6" y="-13" width="85.2" height="26" rx="13" fill="#0b1020" stroke="#a78bfa" stroke-opacity=".55"/><circle cx="-30.6" cy="0" r="3" fill="#a78bfa"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">ConvNeXt</text></g></g>
+      <g transform="translate(799.9 213.1)"><g class="cr" style="animation-duration:80s;animation-direction:normal"><rect x="-35.2" y="-13" width="70.4" height="26" rx="13" fill="#0b1020" stroke="#a78bfa" stroke-opacity=".55"/><circle cx="-23.2" cy="0" r="3" fill="#a78bfa"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">OpenCV</text></g></g>
+    </g>
+    <g class="orb m" style="animation-duration:120s" font-size="12.5">
+      <g transform="translate(822.5 487.9)"><g class="cr" style="animation-duration:120s"><rect x="-38.9" y="-13" width="77.8" height="26" rx="13" fill="#0b1020" stroke="#f472b6" stroke-opacity=".55"/><circle cx="-26.9" cy="0" r="3" fill="#f472b6"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">FastAPI</text></g></g>
+      <g transform="translate(677.2 559.3)"><g class="cr" style="animation-duration:120s"><rect x="-27.8" y="-13" width="55.6" height="26" rx="13" fill="#0b1020" stroke="#f472b6" stroke-opacity=".55"/><circle cx="-15.8" cy="0" r="3" fill="#f472b6"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">REST</text></g></g>
+      <g transform="translate(517.7 531.7)"><g class="cr" style="animation-duration:120s"><rect x="-50.0" y="-13" width="100.0" height="26" rx="13" fill="#0b1020" stroke="#f472b6" stroke-opacity=".55"/><circle cx="-38.0" cy="0" r="3" fill="#f472b6"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">JavaScript</text></g></g>
+      <g transform="translate(404.8 415.5)"><g class="cr" style="animation-duration:120s"><rect x="-27.8" y="-13" width="55.6" height="26" rx="13" fill="#0b1020" stroke="#f472b6" stroke-opacity=".55"/><circle cx="-15.8" cy="0" r="3" fill="#f472b6"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">HTML</text></g></g>
+      <g transform="translate(381.9 255.2)"><g class="cr" style="animation-duration:120s"><rect x="-24.1" y="-13" width="48.2" height="26" rx="13" fill="#0b1020" stroke="#f472b6" stroke-opacity=".55"/><circle cx="-12.1" cy="0" r="3" fill="#f472b6"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">CSS</text></g></g>
+      <g transform="translate(457.5 112.1)"><g class="cr" style="animation-duration:120s"><rect x="-31.5" y="-13" width="63.0" height="26" rx="13" fill="#0b1020" stroke="#f472b6" stroke-opacity=".55"/><circle cx="-19.5" cy="0" r="3" fill="#f472b6"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">SciPy</text></g></g>
+      <g transform="translate(602.8 40.7)"><g class="cr" style="animation-duration:120s"><rect x="-38.9" y="-13" width="77.8" height="26" rx="13" fill="#0b1020" stroke="#f472b6" stroke-opacity=".55"/><circle cx="-26.9" cy="0" r="3" fill="#f472b6"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">EasyOCR</text></g></g>
+      <g transform="translate(762.3 68.3)"><g class="cr" style="animation-duration:120s"><rect x="-27.8" y="-13" width="55.6" height="26" rx="13" fill="#0b1020" stroke="#f472b6" stroke-opacity=".55"/><circle cx="-15.8" cy="0" r="3" fill="#f472b6"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">LSTM</text></g></g>
+      <g transform="translate(875.2 184.5)"><g class="cr" style="animation-duration:120s"><rect x="-35.2" y="-13" width="70.4" height="26" rx="13" fill="#0b1020" stroke="#f472b6" stroke-opacity=".55"/><circle cx="-23.2" cy="0" r="3" fill="#f472b6"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">Kalman</text></g></g>
+      <g transform="translate(898.1 344.8)"><g class="cr" style="animation-duration:120s"><rect x="-46.3" y="-13" width="92.6" height="26" rx="13" fill="#0b1020" stroke="#f472b6" stroke-opacity=".55"/><circle cx="-34.3" cy="0" r="3" fill="#f472b6"/><text x="6.0" y="4.3" text-anchor="middle" fill="#e2e8f0">Apple MPS</text></g></g>
+    </g>
+    <g filter="url(#glw)">
+      <circle class="pulse" cx="640" cy="300" r="40" fill="#0b1020" stroke="url(#ring)" stroke-width="2.5"/>
+    </g>
+    <text class="s" x="640" y="309" text-anchor="middle" font-size="26" font-weight="800" fill="#f1f5f9" letter-spacing="-1">SA</text>
+
+    <!-- legends -->
+    <g class="m" font-size="11.5" letter-spacing="1.8">
+      <text x="44" y="60" fill="#64748b">TECHNICAL ORBIT</text>
+      <text class="s" x="44" y="96" font-size="26" font-weight="800" letter-spacing="-.5" fill="#f1f5f9">What my systems</text>
+      <text class="s" x="44" y="126" font-size="26" font-weight="800" letter-spacing="-.5" fill="#f1f5f9">are made of.</text>
+      <g transform="translate(44 176)"><circle cx="6" cy="-4" r="5" fill="#67e8f9"/><text x="22" fill="#cbd5e1">CORE</text><text x="22" y="20" fill="#475569" letter-spacing=".5">language + data</text></g>
+      <g transform="translate(44 236)"><circle cx="6" cy="-4" r="5" fill="#a78bfa"/><text x="22" fill="#cbd5e1">INTELLIGENCE</text><text x="22" y="20" fill="#475569" letter-spacing=".5">learning + vision</text></g>
+      <g transform="translate(44 296)"><circle cx="6" cy="-4" r="5" fill="#f472b6"/><text x="22" fill="#cbd5e1">SYSTEMS</text><text x="22" y="20" fill="#475569" letter-spacing=".5">serve · track · ship</text></g>
+    </g>
+    <g class="m" font-size="12" fill="#475569">
+      <text x="1156" y="520" text-anchor="end">no skill bars, no fake percentages —</text>
+      <text x="1156" y="542" text-anchor="end">just what shows up in the actual code.</text>
+    </g>
+    <rect x=".75" y=".75" width="1198.5" height="598.5" rx="25.5" fill="none" stroke="#a5b4fc" stroke-opacity=".15"/>
+  </g>
+</svg>

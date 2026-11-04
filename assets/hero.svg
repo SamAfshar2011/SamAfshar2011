@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="t d">
+  <title id="t">Sam Afshar — building complete intelligent systems</title>
+  <desc id="d">Animated banner: Sam Afshar's name over a live neural network, with rotating focus areas: machine learning, computer vision, AI systems and products.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05060b"/>
+      <stop offset=".55" stop-color="#090c16"/>
+      <stop offset="1" stop-color="#05070c"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="78%" cy="45%" r="45%">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity=".30"/>
+      <stop offset=".5" stop-color="#2dd4bf" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="8%" cy="100%" r="55%">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset=".18" stop-color="#a5f3fc"/>
+      <stop offset=".34" stop-color="#c4b5fd"/>
+      <stop offset=".5" stop-color="#f8fafc"/>
+      <stop offset=".68" stop-color="#a5f3fc"/>
+      <stop offset=".84" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-600 0" to="0 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#8ea2c8" stroke-opacity=".05"/>
+    </pattern>
+    <radialGradient id="gridFade" cx="35%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="fade"><rect width="1200" height="520" fill="url(#gridFade)"/></mask>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="520" rx="30"/></clipPath>
+    <style>
+      .sans{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+      .mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace}
+      .star{animation:tw 4s ease-in-out infinite}
+      @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+      .flow{stroke-dasharray:6 14;animation:flow 1.6s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-40}}
+      .node{transform-box:fill-box;transform-origin:center;animation:pulse 3s ease-in-out infinite}
+      @keyframes pulse{0%,100%{transform:scale(1);opacity:.85}50%{transform:scale(1.35);opacity:1}}
+      .role{opacity:0;animation:role 16s infinite}
+      .r2{animation-delay:4s}.r3{animation-delay:8s}.r4{animation-delay:12s}
+      @keyframes role{0%{opacity:0;transform:translateY(14px)}3%,22%{opacity:1;transform:translateY(0)}25%,100%{opacity:0;transform:translateY(-14px)}}
+      .cur{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .rise{animation:rise 1s cubic-bezier(.2,.7,.2,1) both}
+      @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+      .ring{transform-box:fill-box;transform-origin:center;animation:spin 40s linear infinite}
+      .ring2{animation-duration:65s;animation-direction:reverse}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      .scan{animation:scan 6s ease-in-out infinite}
+      @keyframes scan{0%{transform:translateY(-40px);opacity:0}10%{opacity:.6}90%{opacity:.6}100%{transform:translateY(560px);opacity:0}}
+      .dot{animation:blink 1.6s ease-in-out infinite}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}.role.r1x{opacity:1}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="520" fill="url(#bg)"/>
+    <rect width="1200" height="520" fill="url(#grid)" mask="url(#fade)"/>
+    <rect width="1200" height="520" fill="url(#glowA)"/>
+    <rect width="1200" height="520" fill="url(#glowB)"/>
+
+    <!-- stars -->
+    <g fill="#e2e8f0">
+      <circle class="star" cx="612" cy="48" r="1.2"/>
+      <circle class="star" style="animation-delay:.6s" cx="702" cy="96" r="1"/>
+      <circle class="star" style="animation-delay:1.2s" cx="1138" cy="58" r="1.4"/>
+      <circle class="star" style="animation-delay:2.1s" cx="1080" cy="470" r="1.1"/>
+      <circle class="star" style="animation-delay:1.7s" cx="560" cy="452" r="1.3"/>
+      <circle class="star" style="animation-delay:.3s" cx="470" cy="70" r="1"/>
+      <circle class="star" style="animation-delay:2.8s" cx="1164" cy="268" r="1"/>
+      <circle class="star" style="animation-delay:3.3s" cx="655" cy="300" r="1"/>
+      <circle class="star" style="animation-delay:1s" cx="372" cy="476" r="1.2"/>
+      <circle class="star" style="animation-delay:2.4s" cx="935" cy="36" r="1.1"/>
+      <circle class="star" style="animation-delay:3.7s" cx="40" cy="36" r="1"/>
+      <circle class="star" style="animation-delay:.9s" cx="1020" cy="496" r="1"/>
+    </g>
+
+    <!-- scanning beam -->
+    <g class="scan"><rect x="0" y="0" width="1200" height="2" fill="#67e8f9" opacity=".25"/><rect x="0" y="-26" width="1200" height="26" fill="#67e8f9" opacity=".03"/></g>
+
+    <!-- ===== neural network (right) ===== -->
+    <g transform="translate(0 0)">
+      <circle class="ring" cx="900" cy="262" r="205" fill="none" stroke="#a78bfa" stroke-opacity=".14" stroke-dasharray="2 10"/>
+      <circle class="ring ring2" cx="900" cy="262" r="168" fill="none" stroke="#22d3ee" stroke-opacity=".12" stroke-dasharray="30 8 2 8"/>
+      <circle cx="900" cy="262" r="120" fill="#7c5cff" opacity=".06" filter="url(#blur)"/>
+
+      <!-- static edges -->
+      <g stroke="#94a3b8" stroke-opacity=".13" stroke-width="1" fill="none">
+        <path d="M740 170L840 130M740 170L840 200M740 170L840 270M740 170L840 340M740 170L840 400"/>
+        <path d="M740 262L840 130M740 262L840 200M740 262L840 270M740 262L840 340M740 262L840 400"/>
+        <path d="M740 354L840 130M740 354L840 200M740 354L840 270M740 354L840 340M740 354L840 400"/>
+        <path d="M840 130L960 160M840 130L960 230M840 130L960 300M840 130L960 370"/>
+        <path d="M840 200L960 160M840 200L960 230M840 200L960 300M840 200L960 370"/>
+        <path d="M840 270L960 160M840 270L960 230M840 270L960 300M840 270L960 370"/>
+        <path d="M840 340L960 160M840 340L960 230M840 340L960 300M840 340L960 370"/>
+        <path d="M840 400L960 160M840 400L960 230M840 400L960 300M840 400L960 370"/>
+        <path d="M960 160L1070 225M960 230L1070 225M960 300L1070 225M960 370L1070 225"/>
+        <path d="M960 160L1070 300M960 230L1070 300M960 300L1070 300M960 370L1070 300"/>
+      </g>
+      <!-- active signal paths -->
+      <g fill="none" stroke="url(#edge)" stroke-width="2" stroke-linecap="round" filter="url(#glow)">
+        <path class="flow" d="M740 170L840 200L960 230L1070 225"/>
+        <path class="flow" style="animation-delay:-.5s" d="M740 262L840 270L960 300L1070 300"/>
+        <path class="flow" style="animation-delay:-1s" d="M740 354L840 340L960 230L1070 225"/>
+        <path class="flow" style="animation-delay:-.8s;animation-duration:2.2s" d="M740 262L840 130L960 160L1070 225"/>
+        <path class="flow" style="animation-delay:-1.3s;animation-duration:2s" d="M740 354L840 400L960 370L1070 300"/>
+      </g>
+      <!-- nodes -->
+      <g filter="url(#glow)">
+        <g fill="#0b1020" stroke="#67e8f9" stroke-width="2">
+          <circle class="node" cx="740" cy="170" r="9"/>
+          <circle class="node" style="animation-delay:.4s" cx="740" cy="262" r="9"/>
+          <circle class="node" style="animation-delay:.8s" cx="740" cy="354" r="9"/>
+        </g>
+        <g fill="#0b1020" stroke="#93c5fd" stroke-width="2">
+          <circle class="node" style="animation-delay:.2s" cx="840" cy="130" r="8"/>
+          <circle class="node" style="animation-delay:.7s" cx="840" cy="200" r="8"/>
+          <circle class="node" style="animation-delay:1.2s" cx="840" cy="270" r="8"/>
+          <circle class="node" style="animation-delay:1.6s" cx="840" cy="340" r="8"/>
+          <circle class="node" style="animation-delay:2s" cx="840" cy="400" r="8"/>
+        </g>
+        <g fill="#0b1020" stroke="#c4b5fd" stroke-width="2">
+          <circle class="node" style="animation-delay:.5s" cx="960" cy="160" r="8"/>
+          <circle class="node" style="animation-delay:1s" cx="960" cy="230" r="8"/>
+          <circle class="node" style="animation-delay:1.5s" cx="960" cy="300" r="8"/>
+          <circle class="node" style="animation-delay:2.2s" cx="960" cy="370" r="8"/>
+        </g>
+        <g fill="#c4b5fd">
+          <circle class="node" style="animation-delay:.3s" cx="1070" cy="225" r="10"/>
+          <circle class="node" style="animation-delay:1.1s" cx="1070" cy="300" r="10"/>
+        </g>
+      </g>
+      <g class="mono" font-size="11" fill="#64748b" letter-spacing="1.5">
+        <text x="740" y="108" text-anchor="middle">INPUT</text>
+        <text x="900" y="458" text-anchor="middle">HIDDEN · LEARNING</text>
+        <text x="1070" y="188" text-anchor="middle">OUTPUT</text>
+      </g>
+      <g class="mono" font-size="10.5" fill="#a5b4fc">
+        <text x="1088" y="229">ŷ₁</text>
+        <text x="1088" y="304">ŷ₂</text>
+      </g>
+    </g>
+
+    <!-- ===== identity (left) ===== -->
+    <g class="mono rise" style="animation-delay:.1s">
+      <rect x="64" y="58" width="262" height="34" rx="17" fill="#0f1424" stroke="#334155" stroke-opacity=".8"/>
+      <circle class="dot" cx="86" cy="75" r="5" fill="#34d399"/>
+      <circle cx="86" cy="75" r="9" fill="#34d399" opacity=".18"/>
+      <text x="102" y="80" font-size="13" fill="#cbd5e1" letter-spacing=".5">~/sam-afshar · building</text>
+    </g>
+
+    <g class="sans rise" style="animation-delay:.25s">
+      <text x="60" y="190" font-size="96" font-weight="800" letter-spacing="-4" fill="url(#name)">Sam Afshar</text>
+    </g>
+    <g class="sans rise" style="animation-delay:.4s">
+      <text x="64" y="236" font-size="22" fill="#94a3b8" font-weight="500">Young engineer turning <tspan fill="#e2e8f0" font-weight="700">AI models</tspan> into <tspan fill="#e2e8f0" font-weight="700">complete systems</tspan>.</text>
+    </g>
+
+    <!-- rotating role line -->
+    <g class="mono" font-size="20" font-weight="600">
+      <text x="64" y="292" fill="#64748b">&gt;</text>
+      <g transform="translate(88 0)">
+        <text class="role r1x" y="292" fill="#67e8f9">machine_learning<tspan fill="#475569">.fit(real_world)</tspan><tspan class="cur" fill="#67e8f9">_</tspan></text>
+        <text class="role r2" y="292" fill="#a78bfa">computer_vision<tspan fill="#475569">.detect(everything)</tspan><tspan class="cur" fill="#a78bfa">_</tspan></text>
+        <text class="role r3" y="292" fill="#34d399">systems<tspan fill="#475569">.ship(end_to_end=True)</tspan><tspan class="cur" fill="#34d399">_</tspan></text>
+        <text class="role r4" y="292" fill="#fbbf24">startup<tspan fill="#475569">.loading(...)</tspan><tspan class="cur" fill="#fbbf24">_</tspan></text>
+      </g>
+    </g>
+
+    <!-- stat chips -->
+    <g class="mono rise" style="animation-delay:.6s" font-size="12.5" letter-spacing="1">
+      <g transform="translate(64 350)">
+        <rect width="150" height="66" rx="16" fill="#0d1222" stroke="#22d3ee" stroke-opacity=".28"/>
+        <text x="18" y="28" fill="#64748b">BORN</text>
+        <text x="18" y="52" fill="#f1f5f9" font-size="18" font-weight="700">Dec 2011</text>
+      </g>
+      <g transform="translate(228 350)">
+        <rect width="182" height="66" rx="16" fill="#0d1222" stroke="#a78bfa" stroke-opacity=".28"/>
+        <text x="18" y="28" fill="#64748b">FIRST CODE</text>
+        <text x="18" y="52" fill="#f1f5f9" font-size="18" font-weight="700">2024 · Python</text>
+      </g>
+      <g transform="translate(424 350)">
+        <rect width="178" height="66" rx="16" fill="#0d1222" stroke="#34d399" stroke-opacity=".28"/>
+        <text x="18" y="28" fill="#64748b">SHIPPED</text>
+        <text x="18" y="52" fill="#f1f5f9" font-size="18" font-weight="700">3 AI systems</text>
+      </g>
+    </g>
+
+    <g class="sans rise" style="animation-delay:.8s">
+      <text x="64" y="466" font-size="14" fill="#475569" letter-spacing="3" font-weight="600">AI · MACHINE LEARNING · COMPUTER VISION · PRODUCT</text>
+      <text x="1136" y="482" font-size="22" fill="#94a3b8" text-anchor="end" font-weight="600" opacity=".75">سام افشار</text>
+    </g>
+
+    <rect x="1" y="1" width="1198" height="518" rx="29.5" fill="none" stroke="#a5b4fc" stroke-opacity=".14"/>
+  </g>
+</svg>

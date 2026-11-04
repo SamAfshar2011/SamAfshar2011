@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="t d">
+  <title id="t">How I build</title>
+  <desc id="d">Four engineering principles: models are components, not products; use deterministic logic when it is the better tool; make uncertainty and rejection visible; benchmark the exciting idea against the boring baseline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06070d"/><stop offset="1" stop-color="#0a0d18"/></linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect width="1200" height="330" rx="26"/></clipPath>
+    <style>
+      .s{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Arial,sans-serif}
+      .m{font-family:'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace}
+      .shine{animation:shine 6s ease-in-out infinite}
+      @keyframes shine{0%{transform:translateX(-120px)}60%,100%{transform:translateX(300px)}}
+      .card{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+      @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+      .blk{animation:blk 3s ease-in-out infinite}
+      @keyframes blk{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      .eq{animation:eq 2.4s ease-in-out infinite}
+      @keyframes eq{0%,100%{opacity:.4}50%{opacity:1}}
+      .bell{stroke-dasharray:180;animation:bell 3s ease-in-out infinite}
+      @keyframes bell{0%{stroke-dashoffset:180}50%,80%{stroke-dashoffset:0}100%{stroke-dashoffset:-180}}
+      .bar1{transform-box:fill-box;transform-origin:bottom;animation:b1 3s ease-in-out infinite}
+      .bar2{transform-box:fill-box;transform-origin:bottom;animation:b2 3s ease-in-out infinite}
+      @keyframes b1{0%,100%{transform:scaleY(.55)}50%{transform:scaleY(1)}}
+      @keyframes b2{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.7)}}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="330" fill="url(#bg)"/>
+    <text class="m" x="44" y="50" font-size="11.5" letter-spacing="1.8" fill="#64748b">HOW I BUILD · 4 RULES I TRY TO KEEP</text>
+
+    <!-- card 1 -->
+    <g class="card" style="animation-delay:.1s">
+      <g transform="translate(44 74)">
+        <rect width="262" height="222" rx="18" fill="#0c1120" stroke="#22d3ee" stroke-opacity=".25"/>
+        <clipPath id="k1"><rect width="262" height="2"/></clipPath>
+        <rect width="262" height="2" fill="#22d3ee" opacity=".5"/>
+        <g clip-path="url(#k1)"><rect class="shine" x="0" y="0" width="80" height="2" fill="url(#sh)"/></g>
+        <g transform="translate(24 30)"><g class="blk">
+          <rect width="22" height="22" rx="4" fill="#22d3ee" fill-opacity=".85"/>
+          <rect x="26" width="22" height="22" rx="4" fill="#22d3ee" fill-opacity=".35"/>
+          <rect y="26" width="22" height="22" rx="4" fill="#22d3ee" fill-opacity=".35"/>
+          <rect x="26" y="26" width="22" height="22" rx="4" fill="#22d3ee" fill-opacity=".35"/>
+        </g></g>
+        <text class="m" x="238" y="44" font-size="12" fill="#334155" text-anchor="end">01</text>
+        <text class="s" x="24" y="118" font-size="19" font-weight="800" fill="#f1f5f9">Models are</text>
+        <text class="s" x="24" y="142" font-size="19" font-weight="800" fill="#f1f5f9">components.</text>
+        <text class="s" x="24" y="174" font-size="13.5" fill="#8191a8">Data flow, validation, UI and</text>
+        <text class="s" x="24" y="194" font-size="13.5" fill="#8191a8">fallbacks have to work around</text>
+        <text class="s" x="24" y="214" font-size="13.5" fill="#8191a8">the model — or nothing works.</text>
+      </g>
+    </g>
+    <!-- card 2 -->
+    <g class="card" style="animation-delay:.25s">
+      <g transform="translate(326 74)">
+        <rect width="262" height="222" rx="18" fill="#0c1120" stroke="#a78bfa" stroke-opacity=".25"/>
+        <clipPath id="k2"><rect width="262" height="2"/></clipPath>
+        <rect width="262" height="2" fill="#a78bfa" opacity=".5"/>
+        <g clip-path="url(#k2)"><rect class="shine" style="animation-delay:1.5s" x="0" y="0" width="80" height="2" fill="url(#sh)"/></g>
+        <g transform="translate(24 30)">
+          <text class="m" x="0" y="34" font-size="30" font-weight="700" fill="#a78bfa">f(x)</text>
+          <text class="m eq" x="70" y="34" font-size="30" font-weight="700" fill="#c4b5fd">=</text>
+        </g>
+        <text class="m" x="238" y="44" font-size="12" fill="#334155" text-anchor="end">02</text>
+        <text class="s" x="24" y="118" font-size="19" font-weight="800" fill="#f1f5f9">Deterministic when</text>
+        <text class="s" x="24" y="142" font-size="19" font-weight="800" fill="#f1f5f9">it's the better tool.</text>
+        <text class="s" x="24" y="174" font-size="13.5" fill="#8191a8">A neural net isn't automatically</text>
+        <text class="s" x="24" y="194" font-size="13.5" fill="#8191a8">smarter than an explicit, testable</text>
+        <text class="s" x="24" y="214" font-size="13.5" fill="#8191a8">rule or a clean statistic.</text>
+      </g>
+    </g>
+    <!-- card 3 -->
+    <g class="card" style="animation-delay:.4s">
+      <g transform="translate(608 74)">
+        <rect width="262" height="222" rx="18" fill="#0c1120" stroke="#f472b6" stroke-opacity=".25"/>
+        <clipPath id="k3"><rect width="262" height="2"/></clipPath>
+        <rect width="262" height="2" fill="#f472b6" opacity=".5"/>
+        <g clip-path="url(#k3)"><rect class="shine" style="animation-delay:3s" x="0" y="0" width="80" height="2" fill="url(#sh)"/></g>
+        <g transform="translate(24 30)">
+          <path d="M0 48 C14 48 18 4 32 4 S50 48 64 48" fill="#f472b6" fill-opacity=".12"/>
+          <path class="bell" d="M0 48 C14 48 18 4 32 4 S50 48 64 48" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="32" y1="0" x2="32" y2="52" stroke="#f9a8d4" stroke-dasharray="2 3"/>
+        </g>
+        <text class="m" x="238" y="44" font-size="12" fill="#334155" text-anchor="end">03</text>
+        <text class="s" x="24" y="118" font-size="19" font-weight="800" fill="#f1f5f9">Show uncertainty.</text>
+        <text class="s" x="24" y="142" font-size="19" font-weight="800" fill="#f1f5f9">Reject out loud.</text>
+        <text class="s" x="24" y="174" font-size="13.5" fill="#8191a8">Weak confidence and bad inputs</text>
+        <text class="s" x="24" y="194" font-size="13.5" fill="#8191a8">should fail clearly — not produce</text>
+        <text class="s" x="24" y="214" font-size="13.5" fill="#8191a8">confident-looking nonsense.</text>
+      </g>
+    </g>
+    <!-- card 4 -->
+    <g class="card" style="animation-delay:.55s">
+      <g transform="translate(890 74)">
+        <rect width="266" height="222" rx="18" fill="#0c1120" stroke="#fbbf24" stroke-opacity=".25"/>
+        <clipPath id="k4"><rect width="266" height="2"/></clipPath>
+        <rect width="266" height="2" fill="#fbbf24" opacity=".5"/>
+        <g clip-path="url(#k4)"><rect class="shine" style="animation-delay:4.5s" x="0" y="0" width="80" height="2" fill="url(#sh)"/></g>
+        <g transform="translate(24 30)">
+          <rect class="bar1" x="0" y="4" width="20" height="44" rx="4" fill="#fbbf24"/>
+          <rect class="bar2" x="28" y="4" width="20" height="44" rx="4" fill="#fbbf24" fill-opacity=".35"/>
+          <text class="m" x="58" y="46" font-size="10" fill="#78716c">vs naive</text>
+        </g>
+        <text class="m" x="242" y="44" font-size="12" fill="#334155" text-anchor="end">04</text>
+        <text class="s" x="24" y="118" font-size="19" font-weight="800" fill="#f1f5f9">Beat the boring</text>
+        <text class="s" x="24" y="142" font-size="19" font-weight="800" fill="#f1f5f9">baseline — or say so.</text>
+        <text class="s" x="24" y="174" font-size="13.5" fill="#8191a8">If the fancy model can't beat a</text>
+        <text class="s" x="24" y="194" font-size="13.5" fill="#8191a8">simple baseline, that result is</text>
+        <text class="s" x="24" y="214" font-size="13.5" fill="#8191a8">part of the engineering story.</text>
+      </g>
+    </g>
+    <rect x=".75" y=".75" width="1198.5" height="328.5" rx="25.5" fill="none" stroke="#a5b4fc" stroke-opacity=".15"/>
+  </g>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+  <title id="t">Trajectory</title>
+  <desc id="d">Timeline: born December 2011; 2024 first lines of Python; then machine learning, computer vision, APIs and frontends; 2026 Fiscora, ANKA and PlateHunter; next, a technology startup.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06070d"/><stop offset="1" stop-color="#0a0d18"/></linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64748b"/><stop offset=".3" stop-color="#22d3ee"/><stop offset=".6" stop-color="#a78bfa"/><stop offset=".85" stop-color="#f472b6"/><stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%"><stop stop-color="#fbbf24" stop-opacity=".45"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></radialGradient>
+    <filter id="glw" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="c"><rect width="1200" height="340" rx="26"/></clipPath>
+    <style>
+      .s{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Arial,sans-serif}
+      .m{font-family:'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace}
+      .trail{stroke-dasharray:1200;animation:trail 3.2s cubic-bezier(.5,.1,.2,1) .2s both}
+      @keyframes trail{from{stroke-dashoffset:1200}to{stroke-dashoffset:0}}
+      .pop{transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.6,.5,1) both}
+      @keyframes pop{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:scale(1)}}
+      .txt{animation:txt .8s ease both}
+      @keyframes txt{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+      .halo{transform-box:fill-box;transform-origin:center;animation:halo 2.4s ease-in-out infinite}
+      @keyframes halo{0%,100%{transform:scale(.85);opacity:.6}50%{transform:scale(1.25);opacity:1}}
+      .future{stroke-dasharray:4 8;animation:fut 1.2s linear infinite}
+      @keyframes fut{to{stroke-dashoffset:-24}}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <text class="m" x="44" y="50" font-size="11.5" letter-spacing="1.8" fill="#64748b">TRAJECTORY · SO FAR</text>
+
+    <!-- trail -->
+    <path d="M90 214 C220 214 250 176 360 176 S520 150 620 150 S800 116 900 112" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+    <path class="trail" d="M90 214 C220 214 250 176 360 176 S520 150 620 150 S800 116 900 112" fill="none" stroke="url(#path)" stroke-width="4" stroke-linecap="round" filter="url(#glw)"/>
+    <path class="future" d="M900 112 C980 108 1030 92 1090 86" fill="none" stroke="#fbbf24" stroke-opacity=".7" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- comet -->
+    <circle r="5" fill="#fff" filter="url(#glw)">
+      <animateMotion dur="5s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="spline" keySplines=".5 0 .3 1" path="M90 214 C220 214 250 176 360 176 S520 150 620 150 S800 116 900 112 C980 108 1030 92 1090 86"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- milestones -->
+    <g>
+      <circle class="pop" style="animation-delay:.2s" cx="90" cy="214" r="9" fill="#0b1020" stroke="#94a3b8" stroke-width="3"/>
+      <circle class="pop" style="animation-delay:1s" cx="360" cy="176" r="9" fill="#0b1020" stroke="#22d3ee" stroke-width="3"/>
+      <circle class="pop" style="animation-delay:1.8s" cx="620" cy="150" r="9" fill="#0b1020" stroke="#a78bfa" stroke-width="3"/>
+      <circle class="pop" style="animation-delay:2.7s" cx="900" cy="112" r="10" fill="#0b1020" stroke="#f472b6" stroke-width="3"/>
+      <circle class="halo" cx="1090" cy="86" r="34" fill="url(#sun)"/>
+      <circle class="pop" style="animation-delay:3.3s" cx="1090" cy="86" r="11" fill="#fbbf24"/>
+    </g>
+
+    <g class="s">
+      <g class="txt" style="animation-delay:.4s">
+        <text class="m" x="72" y="256" font-size="12" fill="#94a3b8" letter-spacing="1.5">DEC 2011</text>
+        <text x="72" y="282" font-size="17" font-weight="700" fill="#f1f5f9">Hello, world.</text>
+        <text x="72" y="304" font-size="13" fill="#64748b">born</text>
+      </g>
+      <g class="txt" style="animation-delay:1.2s">
+        <text class="m" x="342" y="218" font-size="12" fill="#22d3ee" letter-spacing="1.5">2024</text>
+        <text x="342" y="244" font-size="17" font-weight="700" fill="#f1f5f9">First lines of Python</text>
+        <text x="342" y="266" font-size="13" fill="#64748b">scripts → notebooks → models</text>
+      </g>
+      <g class="txt" style="animation-delay:2s">
+        <text class="m" x="602" y="192" font-size="12" fill="#a78bfa" letter-spacing="1.5">THEN</text>
+        <text x="602" y="218" font-size="17" font-weight="700" fill="#f1f5f9">ML · CV · APIs · frontends</text>
+        <text x="602" y="240" font-size="13" fill="#64748b">from single models to pipelines</text>
+      </g>
+      <g class="txt" style="animation-delay:2.9s">
+        <text class="m" x="880" y="154" font-size="12" fill="#f472b6" letter-spacing="1.5">2026 · NOW</text>
+        <text x="880" y="180" font-size="17" font-weight="700" fill="#f1f5f9">Fiscora · ANKA</text>
+        <text x="880" y="202" font-size="17" font-weight="700" fill="#f1f5f9">PlateHunter</text>
+        <text x="880" y="224" font-size="13" fill="#64748b">complete systems, honest limits</text>
+      </g>
+      <g class="txt" style="animation-delay:3.5s">
+        <text class="m" x="1156" y="136" font-size="12" fill="#fbbf24" letter-spacing="1.5" text-anchor="end">NEXT</text>
+        <text x="1156" y="162" font-size="17" font-weight="800" fill="#fde68a" text-anchor="end">A real startup.</text>
+        <text x="1156" y="182" font-size="13" fill="#64748b" text-anchor="end">useful products first</text>
+      </g>
+    </g>
+    <rect x=".75" y=".75" width="1198.5" height="338.5" rx="25.5" fill="none" stroke="#a5b4fc" stroke-opacity=".15"/>
+  </g>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="t d">
+  <title id="t">01 · Fiscora — personal-finance intelligence</title>
+  <desc id="d">Project card: a deterministic month-end spending projection with a bootstrap uncertainty band, a financial health gauge, and an LSTM behaviour model estimating overspend probability. Values shown are illustrative.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#04110f"/><stop offset=".6" stop-color="#071614"/><stop offset="1" stop-color="#050c0c"/></linearGradient>
+    <radialGradient id="glow" cx="75%" cy="40%" r="50%"><stop stop-color="#2dd4bf" stop-opacity=".16"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#34d399"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#34d399" stop-opacity=".28"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></linearGradient>
+    <pattern id="g" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#5eead4" stroke-opacity=".045"/></pattern>
+    <filter id="glw" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="c"><rect width="1200" height="430" rx="26"/></clipPath>
+    <style>
+      .s{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Arial,sans-serif}
+      .m{font-family:'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace}
+      .draw{stroke-dasharray:900;animation:draw 2.4s cubic-bezier(.4,.1,.2,1) .3s both}
+      .fc{stroke-dasharray:6 7;animation:show .6s ease 2.4s both, dash 1.4s linear 2.4s infinite}
+      @keyframes draw{from{stroke-dashoffset:900}to{stroke-dashoffset:0}}
+      @keyframes dash{to{stroke-dashoffset:-26}}
+      .band{animation:show 1.2s ease 2.2s both}
+      .fade{animation:show .8s ease both}
+      @keyframes show{from{opacity:0}to{opacity:1}}
+      .gauge{stroke-dasharray:184 300;animation:g 2.2s cubic-bezier(.3,.7,.2,1) .8s both}
+      @keyframes g{from{stroke-dasharray:0 300}to{stroke-dasharray:184 300}}
+      .pbar{transform-origin:left;animation:pb 2s cubic-bezier(.3,.7,.2,1) 1.4s both}
+      @keyframes pb{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+      .pt{animation:pt 2.6s ease-in-out infinite}
+      @keyframes pt{0%,100%{opacity:.35}50%{opacity:1}}
+      .float{animation:fl 6s ease-in-out infinite}
+      @keyframes fl{50%{transform:translateY(-6px)}}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="430" fill="url(#bg)"/>
+    <rect width="1200" height="430" fill="url(#g)"/>
+    <rect width="1200" height="430" fill="url(#glow)"/>
+
+    <!-- left: identity -->
+    <text class="s" x="528" y="200" text-anchor="end" font-size="150" font-weight="900" fill="none" stroke="#34d399" stroke-opacity=".14" stroke-width="1.5" letter-spacing="-6">01</text>
+    <g class="m" font-size="12" letter-spacing="2.2" fill="#5eead4">
+      <rect x="48" y="44" width="176" height="28" rx="14" fill="#0b2420" stroke="#34d399" stroke-opacity=".35"/>
+      <text x="64" y="63">FINANCE · ML · OCR</text>
+    </g>
+    <text class="s" x="46" y="190" font-size="62" font-weight="800" letter-spacing="-2.5" fill="#ecfdf5">Fiscora</text>
+    <text class="s" x="48" y="226" font-size="19" fill="#86b3a8">Personal-finance intelligence that</text>
+    <text class="s" x="48" y="252" font-size="19" fill="#86b3a8">knows when <tspan fill="#d1fae5" font-weight="700">not</tspan> to use a neural net.</text>
+
+    <g class="m" font-size="13.5" fill="#a7d3c7">
+      <g transform="translate(48 292)"><circle cx="6" cy="-5" r="4" fill="#34d399"/><text x="22">deterministic projection + bootstrap bands</text></g>
+      <g transform="translate(48 320)"><circle cx="6" cy="-5" r="4" fill="#22d3ee"/><text x="22">multi-task LSTM · overspend probability</text></g>
+      <g transform="translate(48 348)"><circle cx="6" cy="-5" r="4" fill="#a78bfa"/><text x="22">receipt OCR → review → commit</text></g>
+      <g transform="translate(48 376)"><circle cx="6" cy="-5" r="4" fill="#fbbf24"/><text x="22">grounded AI coach · FastAPI backend</text></g>
+    </g>
+
+    <!-- right: dashboard -->
+    <g class="float">
+      <g transform="translate(560 40)">
+        <rect width="600" height="350" rx="22" fill="#081a17" stroke="#34d399" stroke-opacity=".22"/>
+        <g class="m" font-size="11" letter-spacing="1.6" fill="#5f8f84">
+          <text x="26" y="36">MONTH-END PROJECTION</text>
+          <text x="574" y="36" text-anchor="end" fill="#3f6b62">illustrative</text>
+        </g>
+        <!-- axes -->
+        <g stroke="#34d399" stroke-opacity=".08">
+          <line x1="26" y1="80" x2="380" y2="80"/><line x1="26" y1="130" x2="380" y2="130"/><line x1="26" y1="180" x2="380" y2="180"/><line x1="26" y1="230" x2="380" y2="230"/>
+        </g>
+        <line x1="262" y1="58" x2="262" y2="250" stroke="#5eead4" stroke-opacity=".35" stroke-dasharray="3 4"/>
+        <text class="m" x="268" y="66" font-size="10" fill="#5eead4" opacity=".7">today</text>
+
+        <!-- history -->
+        <path class="fade" style="animation-delay:1.6s" d="M26 226 L56 214 L86 218 L116 196 L146 200 L176 180 L206 184 L236 164 L262 160 L262 250 L26 250Z" fill="url(#area)"/>
+        <path class="draw" d="M26 226 L56 214 L86 218 L116 196 L146 200 L176 180 L206 184 L236 164 L262 160" fill="none" stroke="url(#acc)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" filter="url(#glw)"/>
+        <!-- uncertainty band -->
+        <path class="band" d="M262 160 L300 132 L340 108 L380 84 L380 168 L340 160 L300 156Z" fill="#22d3ee" fill-opacity=".13" stroke="#22d3ee" stroke-opacity=".25"/>
+        <path class="fc" d="M262 160 L300 144 L340 134 L380 126" fill="none" stroke="#67e8f9" stroke-width="2.5" stroke-linecap="round"/>
+        <circle class="pt" cx="380" cy="126" r="6" fill="#67e8f9"/>
+        <g class="m fade" style="animation-delay:2.8s" font-size="10.5">
+          <text x="300" y="98" fill="#67e8f9">p90</text>
+          <text x="300" y="184" fill="#67e8f9" opacity=".7">p10</text>
+        </g>
+        <g class="m" font-size="10" fill="#3f6b62">
+          <text x="26" y="272">week 1</text><text x="150" y="272">week 2</text><text x="262" y="272">week 3</text><text x="350" y="272">end</text>
+        </g>
+
+        <!-- gauge -->
+        <g transform="translate(490 150)">
+          <circle r="62" fill="none" stroke="#123a33" stroke-width="10"/>
+          <circle class="gauge" r="62" fill="none" stroke="url(#acc)" stroke-width="10" stroke-linecap="round" transform="rotate(-90)" filter="url(#glw)"/>
+          <text class="s" y="8" text-anchor="middle" font-size="30" font-weight="800" fill="#ecfdf5">B+</text>
+          <text class="m" y="30" text-anchor="middle" font-size="10" fill="#5f8f84" letter-spacing="1.2">HEALTH</text>
+        </g>
+        <text class="m" x="490" y="240" text-anchor="middle" font-size="10.5" fill="#5f8f84">explicit, inspectable score</text>
+
+        <!-- lstm strip -->
+        <g transform="translate(26 296)">
+          <rect width="548" height="34" rx="10" fill="#0b2420"/>
+          <text class="m" x="14" y="22" font-size="11.5" fill="#a7d3c7">LSTM · 6-month window</text>
+          <rect x="200" y="13" width="240" height="8" rx="4" fill="#123a33"/>
+          <rect class="pbar" x="200" y="13" width="84" height="8" rx="4" fill="#fbbf24"/>
+          <text class="m" x="534" y="22" font-size="11.5" fill="#fbbf24" text-anchor="end">overspend p</text>
+        </g>
+      </g>
+    </g>
+    <rect x=".75" y=".75" width="1198.5" height="428.5" rx="25.5" fill="none" stroke="#34d399" stroke-opacity=".2"/>
+  </g>
+</svg>
