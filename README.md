@@ -170,9 +170,9 @@ frame → YOLO plate detector → crop → YOLO character detector → 8 sorted 
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SamAfshar2011/SamAfshar2011/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SamAfshar2011/SamAfshar2011/output/snake-light.svg" />
-    <img src="https://raw.githubusercontent.com/SamAfshar2011/SamAfshar2011/output/snake-dark.svg" width="100%" alt="A snake eating my contribution graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SamAfshar2011/SamAfshar2011/raw/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/SamAfshar2011/SamAfshar2011/raw/output/snake-light.svg" />
+    <img src="https://github.com/SamAfshar2011/SamAfshar2011/raw/output/snake-dark.svg" width="100%" alt="A snake eating my contribution graph" />
   </picture>
 </div>
 
