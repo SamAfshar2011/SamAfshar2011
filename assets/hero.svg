@@ -54,6 +54,9 @@
     <linearGradient id="nnE2" gradientUnits="userSpaceOnUse" x1="978" y1="0" x2="1092" y2="0"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#e9d5ff"/></linearGradient>
     <linearGradient id="nnBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#c4b5fd"/></linearGradient>
     <filter id="nnGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="awBorder" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b8860b"/><stop offset=".5" stop-color="#fde68a"/><stop offset="1" stop-color="#b8860b"/></linearGradient>
+    <linearGradient id="awShine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fde68a" stop-opacity="0"/><stop offset=".5" stop-color="#fde68a" stop-opacity=".35"/><stop offset="1" stop-color="#fde68a" stop-opacity="0"/></linearGradient>
+    <clipPath id="awClip"><rect x="340" y="58" width="270" height="34" rx="17"/></clipPath>
     <clipPath id="card"><rect width="1200" height="520" rx="30"/></clipPath>
     <style>
       .sans{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
@@ -77,6 +80,8 @@
       .scan{animation:scan 6s ease-in-out infinite}
       @keyframes scan{0%{transform:translateY(-40px);opacity:0}10%{opacity:.6}90%{opacity:.6}100%{transform:translateY(560px);opacity:0}}
       .dot{animation:blink 1.6s ease-in-out infinite}
+      .aw{animation:aw 4.5s ease-in-out infinite}
+      @keyframes aw{0%,55%{transform:translateX(-120px)}100%{transform:translateX(320px)}}
       @media (prefers-reduced-motion: reduce){*{animation:none!important}.role.r1x{opacity:1}}
     </style>
   </defs>
@@ -422,6 +427,14 @@
       <circle class="dot" cx="86" cy="75" r="5" fill="#34d399"/>
       <circle cx="86" cy="75" r="9" fill="#34d399" opacity=".18"/>
       <text x="102" y="80" font-size="13" fill="#cbd5e1" letter-spacing=".5">~/sam-afshar · building</text>
+    </g>
+
+    <!-- award pill -->
+    <g class="mono rise" style="animation-delay:.2s">
+      <rect x="340" y="58" width="270" height="34" rx="17" fill="#1a1205" stroke="url(#awBorder)" stroke-width="1.2"/>
+      <g clip-path="url(#awClip)"><rect class="aw" x="340" y="58" width="90" height="34" fill="url(#awShine)"/></g>
+      <path d="M362 66.5l2.5 5.2 5.7.8-4.1 4 1 5.6-5.1-2.7-5.1 2.7 1-5.6-4.1-4 5.7-.8z" fill="#fbbf24"/>
+      <text x="380" y="80" font-size="12.5" font-weight="700" fill="#fde68a" letter-spacing=".8">GOLD MEDAL · GENEVA 2026</text>
     </g>
 
     <g class="sans rise" style="animation-delay:.25s">

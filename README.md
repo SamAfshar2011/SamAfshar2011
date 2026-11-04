@@ -4,12 +4,33 @@
 
 <br />
 
-<a href="https://samafshar2011.github.io/portfolio/"><img src="https://img.shields.io/badge/portfolio-samafshar2011.github.io/portfolio/-0b1020?style=for-the-badge&labelColor=05060b&color=7c3aed" alt="Portfolio" /></a>
+<a href="#honors"><img src="https://img.shields.io/badge/IFIA_Inv-Gold_Medal_%C2%B7_Geneva_2026-0b1020?style=for-the-badge&labelColor=05060b&color=b8860b" alt="IFIA Inv · Gold Medal · Geneva 2026" /></a>
+<a href="https://samafshar2011.github.io/portfolio/"><img src="https://img.shields.io/badge/portfolio-samafshar2011.github.io%2Fportfolio-0b1020?style=for-the-badge&labelColor=05060b&color=7c3aed" alt="Portfolio" /></a>
 <a href="https://github.com/SamAfshar2011?tab=repositories"><img src="https://img.shields.io/badge/systems_shipped-3-0b1020?style=for-the-badge&labelColor=05060b&color=0891b2" alt="Systems shipped: 3" /></a>
 <a href="https://github.com/SamAfshar2011?tab=followers"><img src="https://img.shields.io/github/followers/SamAfshar2011?style=for-the-badge&label=followers&labelColor=05060b&color=db2777" alt="GitHub followers" /></a>
 <img src="https://komarev.com/ghpvc/?username=SamAfshar2011&style=for-the-badge&label=profile+views&color=4f46e5" alt="Profile views" />
 
 </div>
+
+<br />
+
+<a name="honors"></a>
+<h2 align="center">◆ Honors ◆</h2>
+
+<img src="./assets/honors.svg" width="100%" alt="Gold Medal — 6th International Invention and Innovation Competition for IFIA Inv Title Holders, Geneva, Switzerland, 3–5 July 2026, awarded for ANKA, an AI system for seismic collapse-risk assessment and digital certification. IFIA Inv title holder, verification number IR2026MAY2987SXA." />
+
+<details>
+<summary><b>View the original certificates →</b></summary>
+<br />
+
+<table>
+  <tr>
+    <td width="50%" align="center"><img src="./assets/cert-gold-medal.webp" alt="Original IFIA Gold Medal certificate: Inv. Sam Afshar, AI System for Seismic Collapse Risk Assessment and Digital Certification, 3–5 July 2026, Geneva, Switzerland" /><br /><sub><b>Gold Medal</b> · Geneva, 3–5 July 2026</sub></td>
+    <td width="50%" align="center"><img src="./assets/cert-inv-membership.webp" alt="Original IFIA Inv membership certificate for Inv. Sam Afshar, verification number IR2026MAY2987SXA" /><br /><sub><b>IFIA “Inv” title</b> · verification IR2026MAY2987SXA</sub></td>
+  </tr>
+</table>
+
+</details>
 
 <br />
 
@@ -64,7 +85,7 @@
   <img src="./assets/anka.svg" width="100%" alt="02 · ANKA — earthquake-risk decision support with a TensorFlow model, four risk bands and multilingual guidance" />
 </a>
 
-**ANKA** is an earthquake-safety system built as **preliminary decision support and education** — never as a replacement for a structural engineer.
+**ANKA** is an earthquake-safety system built as **preliminary decision support and education** — never as a replacement for a structural engineer. 🥇 It won a **Gold Medal** at the 6th International Invention & Innovation Competition for IFIA Inv Title Holders (Geneva, July 2026).
 
 <details>
 <summary><b>Engineering details →</b></summary>
@@ -149,7 +170,7 @@ frame → YOLO plate detector → crop → YOLO character detector → 8 sorted 
 | **AI DJ** | `Python` | [open ↗](https://github.com/SamAfshar2011/AI_DJ) |
 | **Fake vs Real Detector** | `Jupyter` · `ML` | [open ↗](https://github.com/SamAfshar2011/Fake_vs_Real_Detector) |
 | **ShadowOps** | `HTML` | [open ↗](https://github.com/SamAfshar2011/ShadowOps) |
-| **Portfolio site** | `JavaScript` | [samafshar2011.github.io ↗](https://samafshar2011.github.io) |
+| **Portfolio site** | `JavaScript` | [samafshar2011.github.io/portfolio ↗](https://samafshar2011.github.io/portfolio/) |
 
 </div>
 
