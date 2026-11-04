@@ -1,0 +1,46 @@
+{
+  "_readme": "Add a new award here and push: the 'Achievement wall' workflow rebuilds assets/achievements.svg automatically. tier: gold | silver | bronze | title. icon: laurel | bulb | wings | rosette | star. Leave a field empty (\"\") to hide it.",
+  "achievements": [
+    {
+      "tier": "gold",
+      "icon": "laurel",
+      "org": "IFIA",
+      "event": "6th International Invention & Innovation Competition for IFIA Inv Title Holders",
+      "project": "ANKA",
+      "place": "Geneva, Switzerland",
+      "date": "3–5 Jul 2026",
+      "ribbon": ["#1e3a8a", "#9f1239"]
+    },
+    {
+      "tier": "gold",
+      "icon": "bulb",
+      "org": "1IDEA1W",
+      "event": "Innovation · Design · Startup international competition",
+      "project": "ANKA",
+      "place": "",
+      "date": "",
+      "ribbon": ["#b91c1c", "#7f1d1d"]
+    },
+    {
+      "tier": "silver",
+      "icon": "wings",
+      "org": "INNOVERSE",
+      "event": "International Invention & Innovation Expo",
+      "project": "Fiscora",
+      "place": "Online · video presentation",
+      "date": "Results 24 Aug 2026",
+      "ribbon": ["#1e2a6a", "#1e2a6a"],
+      "ribbon_style": "dots"
+    },
+    {
+      "tier": "title",
+      "icon": "rosette",
+      "org": "IFIA",
+      "event": "“Inv” title — International Federation of Inventors’ Associations",
+      "project": "",
+      "place": "Verification",
+      "date": "IR2026MAY2987SXA",
+      "ribbon": []
+    }
+  ]
+}

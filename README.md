@@ -4,7 +4,7 @@
 
 <br />
 
-<a href="#honors"><img src="https://img.shields.io/badge/IFIA_Inv-Gold_Medal_%C2%B7_Geneva_2026-0b1020?style=for-the-badge&labelColor=05060b&color=b8860b" alt="IFIA Inv · Gold Medal · Geneva 2026" /></a>
+<a href="#honors"><img src="https://img.shields.io/badge/awards-2%C3%97_gold_%C2%B7_1%C3%97_silver_%C2%B7_IFIA_Inv-0b1020?style=for-the-badge&labelColor=05060b&color=b8860b" alt="Awards: 2× gold · 1× silver · IFIA Inv title" /></a>
 <a href="https://samafshar2011.github.io/portfolio/"><img src="https://img.shields.io/badge/portfolio-samafshar2011.github.io%2Fportfolio-0b1020?style=for-the-badge&labelColor=05060b&color=7c3aed" alt="Portfolio" /></a>
 <a href="https://github.com/SamAfshar2011?tab=repositories"><img src="https://img.shields.io/badge/systems_shipped-3-0b1020?style=for-the-badge&labelColor=05060b&color=0891b2" alt="Systems shipped: 3" /></a>
 <a href="https://github.com/SamAfshar2011?tab=followers"><img src="https://img.shields.io/github/followers/SamAfshar2011?style=for-the-badge&label=followers&labelColor=05060b&color=db2777" alt="GitHub followers" /></a>
@@ -19,16 +19,27 @@
 
 <img src="./assets/honors.svg" width="100%" alt="Gold Medal — 6th International Invention and Innovation Competition for IFIA Inv Title Holders, Geneva, Switzerland, 3–5 July 2026, awarded for ANKA, an AI system for seismic collapse-risk assessment and digital certification. IFIA Inv title holder, verification number IR2026MAY2987SXA." />
 
+<br />
+<br />
+
+<img src="./assets/achievements.svg" width="100%" alt="Achievement wall — Gold: IFIA 6th International Invention &amp; Innovation Competition, Geneva 2026 (ANKA). Gold: 1IDEA1W Innovation · Design · Startup competition (ANKA). Silver: INNOVERSE International Invention &amp; Innovation Expo, results 24 Aug 2026 (Fiscora). Title: IFIA “Inv”, verification IR2026MAY2987SXA." />
+
 <details>
-<summary><b>View the original certificates →</b></summary>
+<summary><b>The real medals &amp; certificates →</b></summary>
 <br />
 
 <table>
   <tr>
-    <td width="50%" align="center"><img src="./assets/cert-gold-medal.webp" alt="Original IFIA Gold Medal certificate: Inv. Sam Afshar, AI System for Seismic Collapse Risk Assessment and Digital Certification, 3–5 July 2026, Geneva, Switzerland" /><br /><sub><b>Gold Medal</b> · Geneva, 3–5 July 2026</sub></td>
-    <td width="50%" align="center"><img src="./assets/cert-inv-membership.webp" alt="Original IFIA Inv membership certificate for Inv. Sam Afshar, verification number IR2026MAY2987SXA" /><br /><sub><b>IFIA “Inv” title</b> · verification IR2026MAY2987SXA</sub></td>
+    <td width="33%" align="center"><img src="./assets/medal-1idea1w-gold.webp" alt="Physical 1IDEA1W gold medal won by ANKA" /><br /><sub><b>1IDEA1W</b> · Gold · ANKA</sub></td>
+    <td width="33%" align="center"><img src="./assets/medal-innoverse-silver.webp" alt="Physical INNOVERSE silver medal won by Fiscora" /><br /><sub><b>INNOVERSE</b> · Silver · Fiscora</sub></td>
+    <td width="33%" align="center"><img src="./assets/cert-gold-medal.webp" alt="Original IFIA Gold Medal certificate: Inv. Sam Afshar, AI System for Seismic Collapse Risk Assessment and Digital Certification, 3–5 July 2026, Geneva, Switzerland" /><br /><sub><b>IFIA</b> · Gold · Geneva 2026</sub></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center"><img src="./assets/cert-inv-membership.webp" width="60%" alt="Original IFIA Inv membership certificate for Inv. Sam Afshar, verification number IR2026MAY2987SXA" /><br /><sub><b>IFIA “Inv” title</b> · verification IR2026MAY2987SXA</sub></td>
   </tr>
 </table>
+
+<sub>Adding a new award is one entry in <a href="./data/achievements.json"><code>data/achievements.json</code></a> — a workflow redraws the wall automatically.</sub>
 
 </details>
 
@@ -58,7 +69,7 @@
   <img src="./assets/fiscora.svg" width="100%" alt="01 · Fiscora — personal-finance intelligence with deterministic projections, an LSTM behaviour model and receipt OCR" />
 </a>
 
-**Fiscora** separates two kinds of intelligence on purpose: explicit, inspectable algorithms where auditability matters, and learned models only where prediction *is* the experiment.
+**Fiscora** separates two kinds of intelligence on purpose: explicit, inspectable algorithms where auditability matters, and learned models only where prediction *is* the experiment. 🥈 It won a **Silver Medal** at the **INNOVERSE** International Invention & Innovation Expo (results announced 24 August 2026).
 
 <details>
 <summary><b>Engineering details →</b></summary>
@@ -85,7 +96,7 @@
   <img src="./assets/anka.svg" width="100%" alt="02 · ANKA — earthquake-risk decision support with a TensorFlow model, four risk bands and multilingual guidance" />
 </a>
 
-**ANKA** is an earthquake-safety system built as **preliminary decision support and education** — never as a replacement for a structural engineer. 🥇 It won a **Gold Medal** at the 6th International Invention & Innovation Competition for IFIA Inv Title Holders (Geneva, July 2026).
+**ANKA** is an earthquake-safety system built as **preliminary decision support and education** — never as a replacement for a structural engineer. 🥇 It won **two gold medals**: at the 6th International Invention & Innovation Competition for IFIA Inv Title Holders (Geneva, July 2026) and at **1IDEA1W**.
 
 <details>
 <summary><b>Engineering details →</b></summary>
