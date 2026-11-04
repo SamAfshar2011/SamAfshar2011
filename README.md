@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Sam Afshar — young engineer turning AI models into complete systems" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
+  <img src="./assets/hero.svg" width="100%" alt="Sam Afshar — young engineer turning AI models into complete systems" />
+</picture>
 
 <br />
 
@@ -17,7 +20,10 @@
 <a name="honors"></a>
 <h2 align="center">◆ Honors ◆</h2>
 
-<img src="./assets/honors.svg" width="100%" alt="Gold Medal — 6th International Invention and Innovation Competition for IFIA Inv Title Holders, Geneva, Switzerland, 3–5 July 2026, awarded for ANKA, an AI system for seismic collapse-risk assessment and digital certification. IFIA Inv title holder, verification number IR2026MAY2987SXA." />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/honors-light.svg" />
+  <img src="./assets/honors.svg" width="100%" alt="Gold Medal — 6th International Invention and Innovation Competition for IFIA Inv Title Holders, Geneva, Switzerland, 3–5 July 2026, awarded for ANKA, an AI system for seismic collapse-risk assessment and digital certification. IFIA Inv title holder, verification number IR2026MAY2987SXA." />
+</picture>
 
 <br />
 <br />
@@ -198,7 +204,14 @@ frame → YOLO plate detector → crop → YOLO character detector → 8 sorted 
 
 <br />
 
-<h2 align="center">◆ Commit trail ◆</h2>
+<h2 align="center">◆ Live from GitHub ◆</h2>
+
+<p align="center"><sub>Not a screenshot: a workflow re-reads the GitHub API every 6 hours and redraws these.</sub></p>
+
+<img src="https://github.com/SamAfshar2011/SamAfshar2011/raw/output/live.svg" width="100%" alt="Live card: contributions in the last 12 months, medals won, public repositories and stars, days since the Geneva gold, latest commit, languages and 52-week activity" />
+
+<br />
+<br />
 
 <div align="center">
   <picture>
@@ -211,6 +224,14 @@ frame → YOLO plate detector → crop → YOLO character detector → 8 sorted 
 <br />
 
 <details>
+<summary><code>&gt;_ sudo hire sam</code></summary>
+<br />
+
+<img src="./assets/terminal.svg" width="100%" alt="Easter egg: a recruiter runs sudo hire sam; the terminal verifies three shipped AI systems, two gold and one silver medal and the IFIA Inv title, then prints ACCESS GRANTED" />
+
+</details>
+
+<details>
 <summary><b>On my radar</b></summary>
 <br />
 
@@ -221,5 +242,8 @@ I closely follow the work of **Apple, NVIDIA, Microsoft, Google and Anthropic**,
 <br />
 
 <a href="https://github.com/SamAfshar2011">
-  <img src="./assets/footer.svg" width="100%" alt="learning by building" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg" />
+    <img src="./assets/footer.svg" width="100%" alt="learning by building" />
+  </picture>
 </a>

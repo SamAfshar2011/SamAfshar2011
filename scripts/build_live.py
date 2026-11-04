@@ -128,6 +128,27 @@ def summarize(u):
     return out
 
 
+# ------------------------------------------------------------------ awards
+def _awards():
+    try:
+        path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "achievements.json")
+        with open(path, encoding="utf8") as f:
+            return json.load(f)["achievements"]
+    except Exception:  # noqa: BLE001
+        return []
+
+
+def medal_count():
+    a = [x for x in _awards() if x.get("tier") in ("gold", "silver", "bronze")]
+    return len(a) if a else None
+
+
+def medal_line():
+    a = _awards()
+    parts = [f"{sum(1 for x in a if x.get('tier') == t)}× {t}" for t in ("gold", "silver", "bronze") if any(x.get("tier") == t for x in a)]
+    return " · ".join(parts) or "—"
+
+
 # ------------------------------------------------------------------ render
 def odometer(uid, value, x, y, size=46, color="#f8fafc", delay=0.0):
     """Rolling digit reels landing on `value`."""
@@ -167,7 +188,7 @@ def render(s, now):
     days_gold = (now.date() - GOLD_DAY).days
     A(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">')
     A('<title id="t">Live from GitHub</title>')
-    A(f'<desc id="d">Live profile card generated {now:%Y-%m-%d %H:%M} UTC: {s["contrib"]} contributions in the last 12 months, current streak {s["streak"]} days, {s["repos"]} public repositories, {s["stars"]} stars, {days_gold} days since the Geneva gold medal.</desc>')
+    A(f'<desc id="d">Live profile card generated {now:%Y-%m-%d %H:%M} UTC: {s["contrib"]} contributions in the last 12 months, {medal_count()} medals, {s["repos"]} public repositories, {s["stars"]} stars, {days_gold} days since the Geneva gold medal.</desc>')
     A("""<defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06070d"/><stop offset=".55" stop-color="#0a0d18"/><stop offset="1" stop-color="#06070d"/></linearGradient>
   <radialGradient id="gl" cx=".85" cy=".1" r=".6"><stop stop-color="#22d3ee" stop-opacity=".10"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
@@ -214,7 +235,7 @@ def render(s, now):
     # tiles
     tiles = [
         ("CONTRIBUTIONS", "last 12 months", s["contrib"], "#67e8f9"),
-        ("CURRENT STREAK", f"days · best {s['longest'] if s['longest'] is not None else '—'}", s["streak"], "#a78bfa"),
+        ("MEDALS WON", medal_line(), medal_count(), "#a78bfa"),
         ("PUBLIC REPOS", f"{s['stars'] if s['stars'] is not None else '—'} stars earned", s["repos"], "#f472b6"),
         ("DAYS SINCE GOLD", "Geneva · 5 Jul 2026", days_gold, "#fbbf24"),
     ]
@@ -273,8 +294,8 @@ def render(s, now):
         n = len(s["weeks"])
         step = bw / n
         for k, v in enumerate(s["weeks"]):
-            h = 4 + 38 * (v / mx)
-            A(f'<rect class="grow" style="animation-delay:{.8 + k*.012:.3f}s" x="{bx + k*step:.1f}" y="{414 - h:.1f}" width="{step-2:.1f}" height="{h:.1f}" rx="1.5" fill="url(#bar)" opacity="{.35 + .65*(v/mx):.2f}"/>')
+            h = 4 + 38 * (v / mx) ** 0.5
+            A(f'<rect class="grow" style="animation-delay:{.8 + k*.012:.3f}s" x="{bx + k*step:.1f}" y="{414 - h:.1f}" width="{step-2:.1f}" height="{h:.1f}" rx="1.5" fill="url(#bar)" opacity="{.35 + .65*(v/mx) ** 0.5:.2f}"/>')
     A('</g>')
 
     A(f'<rect x=".75" y=".75" width="{W-1.5}" height="{H-1.5}" rx="25.5" fill="none" stroke="#a5b4fc" stroke-opacity=".15"/>')

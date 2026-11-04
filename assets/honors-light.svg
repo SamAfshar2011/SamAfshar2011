@@ -1,0 +1,412 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">Gold Medal — Geneva 2026</title>
+  <desc id="d">Honors: Sam Afshar won a Gold Medal at the 6th International Invention and Innovation Competition for IFIA Inv Title Holders, Geneva, Switzerland, 3 to 5 July 2026, for the invention "AI System for Seismic Collapse Risk Assessment and Digital Certification" (ANKA), and holds the IFIA Inv membership title, verification number IR2026MAY2987SXA.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf6"/><stop offset=".5" stop-color="#fdf8ec"/><stop offset="1" stop-color="#fbf4e4"/></linearGradient>
+    <radialGradient id="aura" cx="0.250" cy="0.536" r=".42"><stop offset="0" stop-color="#fbbf24" stop-opacity=".38"/><stop offset=".45" stop-color="#f59e0b" stop-opacity=".08"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <radialGradient id="aura2" cx=".78" cy=".2" r=".5"><stop offset="0" stop-color="#a78bfa" stop-opacity=".10"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff1b8"/><stop offset=".25" stop-color="#d9a521"/><stop offset=".55" stop-color="#7c5a0e"/><stop offset=".8" stop-color="#e8b93a"/><stop offset="1" stop-color="#6b4b0a"/></linearGradient>
+    <linearGradient id="rim2" x1="1" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#fff1b8"/><stop offset=".3" stop-color="#c8921a"/><stop offset=".6" stop-color="#8a6512"/><stop offset="1" stop-color="#f7d677"/></linearGradient>
+    <radialGradient id="face" cx="42%" cy="36%" r="72%"><stop offset="0" stop-color="#fff4c2"/><stop offset=".35" stop-color="#f3cd5a"/><stop offset=".75" stop-color="#cf9a1c"/><stop offset="1" stop-color="#9c7012"/></radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="goldTxt" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7a5200"/><stop offset=".2" stop-color="#c8961a"/><stop offset=".3" stop-color="#e8b923"/><stop offset=".4" stop-color="#a47400"/><stop offset=".6" stop-color="#7a5200"/><stop offset=".8" stop-color="#c8961a"/><stop offset="1" stop-color="#7a5200"/><animateTransform attributeName="gradientTransform" type="translate" values="-600 0;0 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+    <linearGradient id="holo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5c542"/><stop offset=".25" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset=".75" stop-color="#f472b6"/><stop offset="1" stop-color="#f5c542"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="holoSweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".35" stop-color="#22d3ee" stop-opacity=".16"/><stop offset=".5" stop-color="#f5f3ff" stop-opacity=".22"/><stop offset=".65" stop-color="#f472b6" stop-opacity=".16"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="strapA" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#172554"/><stop offset=".5" stop-color="#1e3a8a"/><stop offset="1" stop-color="#172554"/></linearGradient>
+    <linearGradient id="strapB" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4c0519"/><stop offset=".5" stop-color="#9f1239"/><stop offset="1" stop-color="#4c0519"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fbbf24" stroke-opacity=".035"/></pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="drop" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000" flood-opacity=".28"/></filter>
+    <radialGradient id="rayFade" gradientUnits="userSpaceOnUse" cx="300" cy="300" r="330"><stop offset=".3" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <mask id="rayMask"><rect width="1200" height="560" fill="url(#rayFade)"/></mask>
+    <clipPath id="c"><rect width="1200" height="560" rx="28"/></clipPath>
+    <clipPath id="faceClip"><circle cx="300" cy="300" r="118"/></clipPath>
+    <clipPath id="cardClip"><rect x="620" y="318" width="540" height="190" rx="20"/></clipPath>
+    <path id="ringF" d="M203 300 a97 97 0 1 1 194 0 a97 97 0 1 1 -194 0"/>
+    <path id="ringB" d="M203 300 a97 97 0 1 1 194 0 a97 97 0 1 1 -194 0"/>
+    <style>
+      .s{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Arial,sans-serif}
+      .m{font-family:'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace}
+      .serif{font-family:'Cinzel','Trajan Pro',Georgia,'Times New Roman',serif}
+      .rays{transform-origin:300px 300px;animation:spin 60s linear infinite}
+      .rays2{animation-duration:90s;animation-direction:reverse}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      .medal{transform-origin:300px 300px;animation:flip 10s cubic-bezier(.45,0,.55,1) infinite}
+      @keyframes flip{0%,58%{transform:scaleX(1)}64%{transform:scaleX(0)}70%,86%{transform:scaleX(-1)}92%{transform:scaleX(0)}98%,100%{transform:scaleX(1)}}
+      .front{animation:fr 10s linear infinite}
+      @keyframes fr{0%,63.9%{opacity:1}64%,91.9%{opacity:0}92%,100%{opacity:1}}
+      .back{opacity:0;animation:bk 10s linear infinite}
+      @keyframes bk{0%,63.9%{opacity:0}64%,91.9%{opacity:1}92%,100%{opacity:0}}
+      .sweep{animation:sw 5s ease-in-out infinite}
+      @keyframes sw{0%,40%{transform:translateX(-260px)}75%,100%{transform:translateX(260px)}}
+      .float{animation:fl 6s ease-in-out infinite}
+      @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      .tw{transform-box:fill-box;transform-origin:center;animation:tw 3s ease-in-out infinite}
+      @keyframes tw{0%,100%{opacity:0;transform:scale(.2) rotate(0deg)}50%{opacity:1;transform:scale(1) rotate(45deg)}}
+      .dust{animation:dust linear infinite}
+      @keyframes dust{from{transform:translateY(0);opacity:0}15%{opacity:.9}85%{opacity:.6}to{transform:translateY(-240px);opacity:0}}
+      .rosette{transform-origin:690px 413px;animation:spin 24s linear infinite}
+      .rosette2{transform-origin:690px 413px;animation:spin 36s linear infinite reverse}
+      .holoS{animation:hs 6s ease-in-out infinite}
+      @keyframes hs{0%,20%{transform:translateX(-620px)}70%,100%{transform:translateX(620px)}}
+      .stamp{transform-box:fill-box;transform-origin:center;animation:stamp 10s cubic-bezier(.3,1.6,.5,1) infinite both}
+      @keyframes stamp{0%,12%{opacity:0;transform:scale(2.4) rotate(-14deg)}18%,92%{opacity:1;transform:scale(1) rotate(-14deg)}97%,100%{opacity:0;transform:scale(1) rotate(-14deg)}}
+      .scan{animation:scan 10s ease-in-out infinite}
+      @keyframes scan{0%{transform:translateY(0);opacity:0}2%{opacity:1}12%{transform:translateY(186px);opacity:1}13%,100%{transform:translateY(186px);opacity:0}}
+      .rise{animation:rise 1s cubic-bezier(.2,.7,.2,1) both}
+      @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}.stamp{opacity:1}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="560" fill="url(#bg)"/>
+    <rect width="1200" height="560" fill="url(#grid)"/>
+    <rect width="1200" height="560" fill="url(#aura)"/>
+    <rect width="1200" height="560" fill="url(#aura2)"/>
+
+    <g mask="url(#rayMask)">
+    <g class="rays" fill="#fbbf24" opacity="0.1">
+      <path d="M300 300L629.9 290.8L629.9 309.2Z"/>
+      <path d="M300 300L626.5 348.2L623.3 366.4Z"/>
+      <path d="M300 300L613.1 404.2L606.8 421.5Z"/>
+      <path d="M300 300L590.3 457.0L581.1 472.9Z"/>
+      <path d="M300 300L558.6 505.0L546.8 519.1Z"/>
+      <path d="M300 300L519.1 546.8L505.0 558.6Z"/>
+      <path d="M300 300L472.9 581.1L457.0 590.3Z"/>
+      <path d="M300 300L421.5 606.8L404.2 613.1Z"/>
+      <path d="M300 300L366.4 623.3L348.2 626.5Z"/>
+      <path d="M300 300L309.2 629.9L290.8 629.9Z"/>
+      <path d="M300 300L251.8 626.5L233.6 623.3Z"/>
+      <path d="M300 300L195.8 613.1L178.5 606.8Z"/>
+      <path d="M300 300L143.0 590.3L127.1 581.1Z"/>
+      <path d="M300 300L95.0 558.6L80.9 546.8Z"/>
+      <path d="M300 300L53.2 519.1L41.4 505.0Z"/>
+      <path d="M300 300L18.9 472.9L9.7 457.0Z"/>
+      <path d="M300 300L-6.8 421.5L-13.1 404.2Z"/>
+      <path d="M300 300L-23.3 366.4L-26.5 348.2Z"/>
+      <path d="M300 300L-29.9 309.2L-29.9 290.8Z"/>
+      <path d="M300 300L-26.5 251.8L-23.3 233.6Z"/>
+      <path d="M300 300L-13.1 195.8L-6.8 178.5Z"/>
+      <path d="M300 300L9.7 143.0L18.9 127.1Z"/>
+      <path d="M300 300L41.4 95.0L53.2 80.9Z"/>
+      <path d="M300 300L80.9 53.2L95.0 41.4Z"/>
+      <path d="M300 300L127.1 18.9L143.0 9.7Z"/>
+      <path d="M300 300L178.5 -6.8L195.8 -13.1Z"/>
+      <path d="M300 300L233.6 -23.3L251.8 -26.5Z"/>
+      <path d="M300 300L290.8 -29.9L309.2 -29.9Z"/>
+      <path d="M300 300L348.2 -26.5L366.4 -23.3Z"/>
+      <path d="M300 300L404.2 -13.1L421.5 -6.8Z"/>
+      <path d="M300 300L457.0 9.7L472.9 18.9Z"/>
+      <path d="M300 300L505.0 41.4L519.1 53.2Z"/>
+      <path d="M300 300L546.8 80.9L558.6 95.0Z"/>
+      <path d="M300 300L581.1 127.1L590.3 143.0Z"/>
+      <path d="M300 300L606.8 178.5L613.1 195.8Z"/>
+      <path d="M300 300L623.3 233.6L626.5 251.8Z"/>
+    </g>
+    <g class="rays rays2" fill="#fbbf24" opacity="0.07">
+      <path d="M300 300L629.5 282.7L629.5 317.3Z"/>
+      <path d="M300 300L621.1 376.3L611.3 409.4Z"/>
+      <path d="M300 300L586.6 463.6L567.9 492.7Z"/>
+      <path d="M300 300L528.9 537.7L502.8 560.4Z"/>
+      <path d="M300 300L452.6 592.6L421.2 606.9Z"/>
+      <path d="M300 300L364.0 623.7L329.8 628.7Z"/>
+      <path d="M300 300L270.2 628.7L236.0 623.7Z"/>
+      <path d="M300 300L178.8 606.9L147.4 592.6Z"/>
+      <path d="M300 300L97.2 560.4L71.1 537.7Z"/>
+      <path d="M300 300L32.1 492.7L13.4 463.6Z"/>
+      <path d="M300 300L-11.3 409.4L-21.1 376.3Z"/>
+      <path d="M300 300L-29.5 317.3L-29.5 282.7Z"/>
+      <path d="M300 300L-21.1 223.7L-11.3 190.6Z"/>
+      <path d="M300 300L13.4 136.4L32.1 107.3Z"/>
+      <path d="M300 300L71.1 62.3L97.2 39.6Z"/>
+      <path d="M300 300L147.4 7.4L178.8 -6.9Z"/>
+      <path d="M300 300L236.0 -23.7L270.2 -28.7Z"/>
+      <path d="M300 300L329.8 -28.7L364.0 -23.7Z"/>
+      <path d="M300 300L421.2 -6.9L452.6 7.4Z"/>
+      <path d="M300 300L502.8 39.6L528.9 62.3Z"/>
+      <path d="M300 300L567.9 107.3L586.6 136.4Z"/>
+      <path d="M300 300L611.3 190.6L621.1 223.7Z"/>
+    </g>
+    </g>
+    <g fill="#b45309">
+      <circle class="dust" style="animation-duration:8.3s;animation-delay:-5.1s" cx="288" cy="459" r="2.1"/>
+      <circle class="dust" style="animation-duration:9.1s;animation-delay:-7.9s" cx="350" cy="372" r="1.5"/>
+      <circle class="dust" style="animation-duration:10.0s;animation-delay:-6.9s" cx="123" cy="400" r="0.9"/>
+      <circle class="dust" style="animation-duration:9.3s;animation-delay:-6.2s" cx="99" cy="556" r="2.2"/>
+      <circle class="dust" style="animation-duration:6.3s;animation-delay:-1.9s" cx="152" cy="333" r="1.5"/>
+      <circle class="dust" style="animation-duration:8.2s;animation-delay:-8.4s" cx="191" cy="337" r="1.4"/>
+      <circle class="dust" style="animation-duration:9.3s;animation-delay:-4.6s" cx="319" cy="477" r="1.5"/>
+      <circle class="dust" style="animation-duration:10.2s;animation-delay:-7.1s" cx="208" cy="559" r="2.2"/>
+      <circle class="dust" style="animation-duration:6.4s;animation-delay:-7.7s" cx="225" cy="383" r="1.2"/>
+      <circle class="dust" style="animation-duration:10.8s;animation-delay:-8.5s" cx="264" cy="525" r="1.3"/>
+      <circle class="dust" style="animation-duration:8.3s;animation-delay:-9.8s" cx="80" cy="378" r="2.1"/>
+      <circle class="dust" style="animation-duration:9.9s;animation-delay:-2.7s" cx="263" cy="347" r="1.7"/>
+      <circle class="dust" style="animation-duration:9.8s;animation-delay:-1.2s" cx="120" cy="406" r="2.1"/>
+      <circle class="dust" style="animation-duration:10.0s;animation-delay:-1.8s" cx="193" cy="353" r="0.9"/>
+      <circle class="dust" style="animation-duration:9.7s;animation-delay:-1.3s" cx="337" cy="433" r="1.1"/>
+      <circle class="dust" style="animation-duration:7.1s;animation-delay:-2.7s" cx="376" cy="357" r="1.4"/>
+      <circle class="dust" style="animation-duration:10.4s;animation-delay:-2.1s" cx="527" cy="515" r="1.2"/>
+      <circle class="dust" style="animation-duration:6.5s;animation-delay:-9.9s" cx="261" cy="527" r="1.7"/>
+    </g>
+    <g class="float">
+      <g filter="url(#drop)">
+        <path d="M196 -10 L262 -10 L326 188 L276 198Z" fill="url(#strapA)"/>
+        <path d="M219 -10 L239 -10 L301 192 L289 194Z" fill="#fbbf24" opacity=".85"/>
+        <path d="M404 -10 L338 -10 L274 188 L324 198Z" fill="url(#strapB)"/>
+        <path d="M381 -10 L361 -10 L299 192 L311 194Z" fill="#fbbf24" opacity=".85"/>
+      </g>
+      <ellipse cx="300" cy="168" rx="20" ry="12" fill="none" stroke="url(#rim)" stroke-width="7"/>
+      <g class="medal" filter="url(#drop)">
+        <circle cx="300" cy="300" r="128" fill="url(#rim)"/>
+        <circle cx="300" cy="300" r="125.5" fill="none" stroke="#5c420a" stroke-opacity=".55" stroke-width="3" stroke-dasharray="1.6 2.4"/>
+        <circle cx="300" cy="300" r="121" fill="url(#rim2)"/>
+        <circle cx="300" cy="300" r="116" fill="url(#face)"/>
+        <g clip-path="url(#faceClip)" stroke-width="1.6">
+          <line x1="300" y1="300" x2="428.0" y2="300.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="427.9" y2="305.4" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="427.6" y2="310.7" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="427.0" y2="316.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="426.2" y2="321.3" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="425.2" y2="326.6" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="424.0" y2="331.8" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="422.5" y2="337.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="420.9" y2="342.1" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="419.0" y2="347.1" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="416.9" y2="352.1" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="414.7" y2="356.9" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="412.2" y2="361.7" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="409.5" y2="366.3" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="406.6" y2="370.8" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="403.6" y2="375.2" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="400.3" y2="379.5" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="396.9" y2="383.6" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="393.3" y2="387.6" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="389.6" y2="391.5" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="385.6" y2="395.1" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="381.6" y2="398.6" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="377.4" y2="402.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="373.1" y2="405.1" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="368.6" y2="408.1" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="364.0" y2="410.9" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="359.3" y2="413.4" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="354.5" y2="415.8" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="349.6" y2="418.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="344.6" y2="420.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="339.6" y2="421.7" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="334.4" y2="423.3" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="329.2" y2="424.6" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="324.0" y2="425.7" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="318.7" y2="426.6" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="313.4" y2="427.3" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="308.0" y2="427.7" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="302.7" y2="428.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="297.3" y2="428.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="292.0" y2="427.7" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="286.6" y2="427.3" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="281.3" y2="426.6" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="276.0" y2="425.7" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="270.8" y2="424.6" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="265.6" y2="423.3" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="260.4" y2="421.7" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="255.4" y2="420.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="250.4" y2="418.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="245.5" y2="415.8" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="240.7" y2="413.4" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="236.0" y2="410.9" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="231.4" y2="408.1" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="226.9" y2="405.1" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="222.6" y2="402.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="218.4" y2="398.6" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="214.4" y2="395.1" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="210.4" y2="391.5" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="206.7" y2="387.6" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="203.1" y2="383.6" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="199.7" y2="379.5" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="196.4" y2="375.2" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="193.4" y2="370.8" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="190.5" y2="366.3" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="187.8" y2="361.7" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="185.3" y2="356.9" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="183.1" y2="352.1" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="181.0" y2="347.1" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="179.1" y2="342.1" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="177.5" y2="337.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="176.0" y2="331.8" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="174.8" y2="326.6" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="173.8" y2="321.3" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="173.0" y2="316.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="172.4" y2="310.7" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="172.1" y2="305.4" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="172.0" y2="300.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="172.1" y2="294.6" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="172.4" y2="289.3" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="173.0" y2="284.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="173.8" y2="278.7" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="174.8" y2="273.4" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="176.0" y2="268.2" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="177.5" y2="263.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="179.1" y2="257.9" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="181.0" y2="252.9" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="183.1" y2="247.9" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="185.3" y2="243.1" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="187.8" y2="238.3" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="190.5" y2="233.7" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="193.4" y2="229.2" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="196.4" y2="224.8" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="199.7" y2="220.5" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="203.1" y2="216.4" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="206.7" y2="212.4" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="210.4" y2="208.5" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="214.4" y2="204.9" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="218.4" y2="201.4" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="222.6" y2="198.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="226.9" y2="194.9" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="231.4" y2="191.9" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="236.0" y2="189.1" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="240.7" y2="186.6" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="245.5" y2="184.2" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="250.4" y2="182.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="255.4" y2="180.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="260.4" y2="178.3" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="265.6" y2="176.7" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="270.8" y2="175.4" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="276.0" y2="174.3" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="281.3" y2="173.4" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="286.6" y2="172.7" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="292.0" y2="172.3" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="297.3" y2="172.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="302.7" y2="172.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="308.0" y2="172.3" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="313.4" y2="172.7" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="318.7" y2="173.4" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="324.0" y2="174.3" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="329.2" y2="175.4" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="334.4" y2="176.7" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="339.6" y2="178.3" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="344.6" y2="180.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="349.6" y2="182.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="354.5" y2="184.2" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="359.3" y2="186.6" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="364.0" y2="189.1" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="368.6" y2="191.9" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="373.1" y2="194.9" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="377.4" y2="198.0" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="381.6" y2="201.4" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="385.6" y2="204.9" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="389.6" y2="208.5" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="393.3" y2="212.4" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="396.9" y2="216.4" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="400.3" y2="220.5" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="403.6" y2="224.8" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="406.6" y2="229.2" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="409.5" y2="233.7" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="412.2" y2="238.3" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="414.7" y2="243.1" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="416.9" y2="247.9" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="419.0" y2="252.9" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="420.9" y2="257.9" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="422.5" y2="263.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="424.0" y2="268.2" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="425.2" y2="273.4" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="426.2" y2="278.7" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="427.0" y2="284.0" stroke="#fff8dc" stroke-opacity="0.16"/>
+          <line x1="300" y1="300" x2="427.6" y2="289.3" stroke="#7a560c" stroke-opacity="0.1"/>
+          <line x1="300" y1="300" x2="427.9" y2="294.6" stroke="#fff8dc" stroke-opacity="0.16"/>
+        </g>
+        <circle cx="300" cy="300" r="116" fill="none" stroke="#6b4b0a" stroke-opacity=".5" stroke-width="1.5"/>
+        <circle cx="300" cy="300" r="82" fill="none" stroke="#6b4b0a" stroke-opacity=".55" stroke-width="1.2"/>
+        <circle cx="300" cy="300" r="78" fill="none" stroke="#fff4c2" stroke-opacity=".5" stroke-width=".8" stroke-dasharray="1 3"/>
+        <g class="front"><g transform="translate(0 1.1)" fill="#fff6d0" opacity=".55"><text class="serif" font-size="12.5" font-weight="700" letter-spacing="2.2"><textPath href="#ringF" xlink:href="#ringF" textLength="600" lengthAdjust="spacing">INTERNATIONAL INVENTION &amp; INNOVATION · GENEVA · SWITZERLAND · </textPath></text><ellipse cx="316.9" cy="367.9" rx="8.5" ry="3.4" transform="rotate(138.0 316.9 367.9)"/><ellipse cx="314.0" cy="356.3" rx="8.5" ry="3.4" transform="rotate(194.0 314.0 356.3)"/><ellipse cx="331.2" cy="362.6" rx="8.1" ry="3.2" transform="rotate(125.5 331.2 362.6)"/><ellipse cx="325.9" cy="351.9" rx="8.1" ry="3.2" transform="rotate(181.5 325.9 351.9)"/><ellipse cx="344.1" cy="354.4" rx="7.7" ry="3.1" transform="rotate(113.0 344.1 354.4)"/><ellipse cx="336.5" cy="345.1" rx="7.7" ry="3.1" transform="rotate(169.0 336.5 345.1)"/><ellipse cx="354.8" cy="343.6" rx="7.4" ry="2.9" transform="rotate(100.5 354.8 343.6)"/><ellipse cx="345.4" cy="336.1" rx="7.4" ry="2.9" transform="rotate(156.5 345.4 336.1)"/><ellipse cx="362.9" cy="330.7" rx="7.0" ry="2.8" transform="rotate(88.0 362.9 330.7)"/><ellipse cx="352.1" cy="325.4" rx="7.0" ry="2.8" transform="rotate(144.0 352.1 325.4)"/><ellipse cx="368.1" cy="316.3" rx="6.6" ry="2.6" transform="rotate(75.5 368.1 316.3)"/><ellipse cx="356.4" cy="313.5" rx="6.6" ry="2.6" transform="rotate(131.5 356.4 313.5)"/><ellipse cx="370.0" cy="301.2" rx="6.2" ry="2.5" transform="rotate(63.0 370.0 301.2)"/><ellipse cx="358.0" cy="301.0" rx="6.2" ry="2.5" transform="rotate(119.0 358.0 301.0)"/><ellipse cx="368.6" cy="286.0" rx="5.8" ry="2.3" transform="rotate(50.5 368.6 286.0)"/><ellipse cx="356.8" cy="288.4" rx="5.8" ry="2.3" transform="rotate(106.5 356.8 288.4)"/><ellipse cx="363.9" cy="271.5" rx="5.4" ry="2.2" transform="rotate(38.0 363.9 271.5)"/><ellipse cx="353.0" cy="276.4" rx="5.4" ry="2.2" transform="rotate(94.0 353.0 276.4)"/><ellipse cx="356.3" cy="258.4" rx="5.1" ry="2.0" transform="rotate(25.5 356.3 258.4)"/><ellipse cx="346.6" cy="265.5" rx="5.1" ry="2.0" transform="rotate(81.5 346.6 265.5)"/><path fill="none" stroke="#5e420a" stroke-width="1.6" d="M308.9 363.4 L322.4 359.9 L334.9 353.7 L345.6 344.9 L354.3 333.9 L360.3 321.4 L363.5 307.8 L363.7 293.9 L360.9 280.2 L355.1 267.5 L346.8 256.4"/><ellipse cx="283.1" cy="367.9" rx="8.5" ry="3.4" transform="rotate(42.0 283.1 367.9)"/><ellipse cx="286.0" cy="356.3" rx="8.5" ry="3.4" transform="rotate(-14.0 286.0 356.3)"/><ellipse cx="268.8" cy="362.6" rx="8.1" ry="3.2" transform="rotate(54.5 268.8 362.6)"/><ellipse cx="274.1" cy="351.9" rx="8.1" ry="3.2" transform="rotate(-1.5 274.1 351.9)"/><ellipse cx="255.9" cy="354.4" rx="7.7" ry="3.1" transform="rotate(67.0 255.9 354.4)"/><ellipse cx="263.5" cy="345.1" rx="7.7" ry="3.1" transform="rotate(11.0 263.5 345.1)"/><ellipse cx="245.2" cy="343.6" rx="7.4" ry="2.9" transform="rotate(79.5 245.2 343.6)"/><ellipse cx="254.6" cy="336.1" rx="7.4" ry="2.9" transform="rotate(23.5 254.6 336.1)"/><ellipse cx="237.1" cy="330.7" rx="7.0" ry="2.8" transform="rotate(92.0 237.1 330.7)"/><ellipse cx="247.9" cy="325.4" rx="7.0" ry="2.8" transform="rotate(36.0 247.9 325.4)"/><ellipse cx="231.9" cy="316.3" rx="6.6" ry="2.6" transform="rotate(104.5 231.9 316.3)"/><ellipse cx="243.6" cy="313.5" rx="6.6" ry="2.6" transform="rotate(48.5 243.6 313.5)"/><ellipse cx="230.0" cy="301.2" rx="6.2" ry="2.5" transform="rotate(117.0 230.0 301.2)"/><ellipse cx="242.0" cy="301.0" rx="6.2" ry="2.5" transform="rotate(61.0 242.0 301.0)"/><ellipse cx="231.4" cy="286.0" rx="5.8" ry="2.3" transform="rotate(129.5 231.4 286.0)"/><ellipse cx="243.2" cy="288.4" rx="5.8" ry="2.3" transform="rotate(73.5 243.2 288.4)"/><ellipse cx="236.1" cy="271.5" rx="5.4" ry="2.2" transform="rotate(142.0 236.1 271.5)"/><ellipse cx="247.0" cy="276.4" rx="5.4" ry="2.2" transform="rotate(86.0 247.0 276.4)"/><ellipse cx="243.7" cy="258.4" rx="5.1" ry="2.0" transform="rotate(154.5 243.7 258.4)"/><ellipse cx="253.4" cy="265.5" rx="5.1" ry="2.0" transform="rotate(98.5 253.4 265.5)"/><path fill="none" stroke="#5e420a" stroke-width="1.6" d="M291.1 363.4 L277.6 359.9 L265.1 353.7 L254.4 344.9 L245.7 333.9 L239.7 321.4 L236.5 307.8 L236.3 293.9 L239.1 280.2 L244.9 267.5 L253.2 256.4"/><path d="M300.0 252.0 L302.5 258.6 L309.5 258.9 L304.0 263.3 L305.9 270.1 L300.0 266.2 L294.1 270.1 L296.0 263.3 L290.5 258.9 L297.5 258.6Z"/><text class="serif" x="300" y="312" text-anchor="middle" font-size="40" font-weight="700" letter-spacing="3">GOLD</text><rect x="266" y="322" width="68" height="1.4"/><text class="serif" x="300" y="342" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="4">2026</text></g><g fill="#5e420a"><text class="serif" font-size="12.5" font-weight="700" letter-spacing="2.2"><textPath href="#ringF" xlink:href="#ringF" textLength="600" lengthAdjust="spacing">INTERNATIONAL INVENTION &amp; INNOVATION · GENEVA · SWITZERLAND · </textPath></text><ellipse cx="316.9" cy="367.9" rx="8.5" ry="3.4" transform="rotate(138.0 316.9 367.9)"/><ellipse cx="314.0" cy="356.3" rx="8.5" ry="3.4" transform="rotate(194.0 314.0 356.3)"/><ellipse cx="331.2" cy="362.6" rx="8.1" ry="3.2" transform="rotate(125.5 331.2 362.6)"/><ellipse cx="325.9" cy="351.9" rx="8.1" ry="3.2" transform="rotate(181.5 325.9 351.9)"/><ellipse cx="344.1" cy="354.4" rx="7.7" ry="3.1" transform="rotate(113.0 344.1 354.4)"/><ellipse cx="336.5" cy="345.1" rx="7.7" ry="3.1" transform="rotate(169.0 336.5 345.1)"/><ellipse cx="354.8" cy="343.6" rx="7.4" ry="2.9" transform="rotate(100.5 354.8 343.6)"/><ellipse cx="345.4" cy="336.1" rx="7.4" ry="2.9" transform="rotate(156.5 345.4 336.1)"/><ellipse cx="362.9" cy="330.7" rx="7.0" ry="2.8" transform="rotate(88.0 362.9 330.7)"/><ellipse cx="352.1" cy="325.4" rx="7.0" ry="2.8" transform="rotate(144.0 352.1 325.4)"/><ellipse cx="368.1" cy="316.3" rx="6.6" ry="2.6" transform="rotate(75.5 368.1 316.3)"/><ellipse cx="356.4" cy="313.5" rx="6.6" ry="2.6" transform="rotate(131.5 356.4 313.5)"/><ellipse cx="370.0" cy="301.2" rx="6.2" ry="2.5" transform="rotate(63.0 370.0 301.2)"/><ellipse cx="358.0" cy="301.0" rx="6.2" ry="2.5" transform="rotate(119.0 358.0 301.0)"/><ellipse cx="368.6" cy="286.0" rx="5.8" ry="2.3" transform="rotate(50.5 368.6 286.0)"/><ellipse cx="356.8" cy="288.4" rx="5.8" ry="2.3" transform="rotate(106.5 356.8 288.4)"/><ellipse cx="363.9" cy="271.5" rx="5.4" ry="2.2" transform="rotate(38.0 363.9 271.5)"/><ellipse cx="353.0" cy="276.4" rx="5.4" ry="2.2" transform="rotate(94.0 353.0 276.4)"/><ellipse cx="356.3" cy="258.4" rx="5.1" ry="2.0" transform="rotate(25.5 356.3 258.4)"/><ellipse cx="346.6" cy="265.5" rx="5.1" ry="2.0" transform="rotate(81.5 346.6 265.5)"/><path fill="none" stroke="#5e420a" stroke-width="1.6" d="M308.9 363.4 L322.4 359.9 L334.9 353.7 L345.6 344.9 L354.3 333.9 L360.3 321.4 L363.5 307.8 L363.7 293.9 L360.9 280.2 L355.1 267.5 L346.8 256.4"/><ellipse cx="283.1" cy="367.9" rx="8.5" ry="3.4" transform="rotate(42.0 283.1 367.9)"/><ellipse cx="286.0" cy="356.3" rx="8.5" ry="3.4" transform="rotate(-14.0 286.0 356.3)"/><ellipse cx="268.8" cy="362.6" rx="8.1" ry="3.2" transform="rotate(54.5 268.8 362.6)"/><ellipse cx="274.1" cy="351.9" rx="8.1" ry="3.2" transform="rotate(-1.5 274.1 351.9)"/><ellipse cx="255.9" cy="354.4" rx="7.7" ry="3.1" transform="rotate(67.0 255.9 354.4)"/><ellipse cx="263.5" cy="345.1" rx="7.7" ry="3.1" transform="rotate(11.0 263.5 345.1)"/><ellipse cx="245.2" cy="343.6" rx="7.4" ry="2.9" transform="rotate(79.5 245.2 343.6)"/><ellipse cx="254.6" cy="336.1" rx="7.4" ry="2.9" transform="rotate(23.5 254.6 336.1)"/><ellipse cx="237.1" cy="330.7" rx="7.0" ry="2.8" transform="rotate(92.0 237.1 330.7)"/><ellipse cx="247.9" cy="325.4" rx="7.0" ry="2.8" transform="rotate(36.0 247.9 325.4)"/><ellipse cx="231.9" cy="316.3" rx="6.6" ry="2.6" transform="rotate(104.5 231.9 316.3)"/><ellipse cx="243.6" cy="313.5" rx="6.6" ry="2.6" transform="rotate(48.5 243.6 313.5)"/><ellipse cx="230.0" cy="301.2" rx="6.2" ry="2.5" transform="rotate(117.0 230.0 301.2)"/><ellipse cx="242.0" cy="301.0" rx="6.2" ry="2.5" transform="rotate(61.0 242.0 301.0)"/><ellipse cx="231.4" cy="286.0" rx="5.8" ry="2.3" transform="rotate(129.5 231.4 286.0)"/><ellipse cx="243.2" cy="288.4" rx="5.8" ry="2.3" transform="rotate(73.5 243.2 288.4)"/><ellipse cx="236.1" cy="271.5" rx="5.4" ry="2.2" transform="rotate(142.0 236.1 271.5)"/><ellipse cx="247.0" cy="276.4" rx="5.4" ry="2.2" transform="rotate(86.0 247.0 276.4)"/><ellipse cx="243.7" cy="258.4" rx="5.1" ry="2.0" transform="rotate(154.5 243.7 258.4)"/><ellipse cx="253.4" cy="265.5" rx="5.1" ry="2.0" transform="rotate(98.5 253.4 265.5)"/><path fill="none" stroke="#5e420a" stroke-width="1.6" d="M291.1 363.4 L277.6 359.9 L265.1 353.7 L254.4 344.9 L245.7 333.9 L239.7 321.4 L236.5 307.8 L236.3 293.9 L239.1 280.2 L244.9 267.5 L253.2 256.4"/><path d="M300.0 252.0 L302.5 258.6 L309.5 258.9 L304.0 263.3 L305.9 270.1 L300.0 266.2 L294.1 270.1 L296.0 263.3 L290.5 258.9 L297.5 258.6Z"/><text class="serif" x="300" y="312" text-anchor="middle" font-size="40" font-weight="700" letter-spacing="3">GOLD</text><rect x="266" y="322" width="68" height="1.4"/><text class="serif" x="300" y="342" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="4">2026</text></g></g>
+        <g class="back"><g transform="translate(600 0) scale(-1 1)"><g transform="translate(0 1.1)" fill="#fff6d0" opacity=".55"><text class="serif" font-size="12" font-weight="700" letter-spacing="2.4"><textPath href="#ringB" xlink:href="#ringB" textLength="600" lengthAdjust="spacing">INV. SAM AFSHAR · IFIA INV TITLE HOLDER · GOLD MEDAL · </textPath></text><text class="serif" x="300" y="274" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="5">ANKA</text><rect x="250" y="284" width="100" height="1.2"/><text class="serif" x="300" y="304" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1.2">AI SYSTEM FOR</text><text class="serif" x="300" y="320" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1.2">SEISMIC COLLAPSE</text><text class="serif" x="300" y="336" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1.2">RISK ASSESSMENT</text><text class="serif" x="300" y="354" text-anchor="middle" font-size="8" font-weight="700" letter-spacing="1">&amp; DIGITAL CERTIFICATION</text></g><g fill="#5e420a"><text class="serif" font-size="12" font-weight="700" letter-spacing="2.4"><textPath href="#ringB" xlink:href="#ringB" textLength="600" lengthAdjust="spacing">INV. SAM AFSHAR · IFIA INV TITLE HOLDER · GOLD MEDAL · </textPath></text><text class="serif" x="300" y="274" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="5">ANKA</text><rect x="250" y="284" width="100" height="1.2"/><text class="serif" x="300" y="304" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1.2">AI SYSTEM FOR</text><text class="serif" x="300" y="320" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1.2">SEISMIC COLLAPSE</text><text class="serif" x="300" y="336" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1.2">RISK ASSESSMENT</text><text class="serif" x="300" y="354" text-anchor="middle" font-size="8" font-weight="700" letter-spacing="1">&amp; DIGITAL CERTIFICATION</text></g></g></g>
+        <g clip-path="url(#faceClip)"><rect class="sweep" x="260" y="150" width="80" height="300" fill="url(#shine)" transform="rotate(20 300 300)" opacity=".8"/></g>
+      </g>
+    </g>
+    <g fill="#d97706" filter="url(#glow)">
+      <path class="tw" style="animation-delay:0.00s" transform="translate(150 170) scale(1.2)" d="M0 -12 C1.5 -2 2 -1.5 12 0 C2 1.5 1.5 2 0 12 C-1.5 2 -2 1.5 -12 0 C-2 -1.5 -1.5 -2 0 -12Z"/>
+      <path class="tw" style="animation-delay:0.45s" transform="translate(455 210) scale(1)" d="M0 -12 C1.5 -2 2 -1.5 12 0 C2 1.5 1.5 2 0 12 C-1.5 2 -2 1.5 -12 0 C-2 -1.5 -1.5 -2 0 -12Z"/>
+      <path class="tw" style="animation-delay:0.90s" transform="translate(430 420) scale(0.8)" d="M0 -12 C1.5 -2 2 -1.5 12 0 C2 1.5 1.5 2 0 12 C-1.5 2 -2 1.5 -12 0 C-2 -1.5 -1.5 -2 0 -12Z"/>
+      <path class="tw" style="animation-delay:1.35s" transform="translate(170 410) scale(0.9)" d="M0 -12 C1.5 -2 2 -1.5 12 0 C2 1.5 1.5 2 0 12 C-1.5 2 -2 1.5 -12 0 C-2 -1.5 -1.5 -2 0 -12Z"/>
+      <path class="tw" style="animation-delay:1.80s" transform="translate(500 320) scale(0.7)" d="M0 -12 C1.5 -2 2 -1.5 12 0 C2 1.5 1.5 2 0 12 C-1.5 2 -2 1.5 -12 0 C-2 -1.5 -1.5 -2 0 -12Z"/>
+      <path class="tw" style="animation-delay:2.25s" transform="translate(120 300) scale(0.6)" d="M0 -12 C1.5 -2 2 -1.5 12 0 C2 1.5 1.5 2 0 12 C-1.5 2 -2 1.5 -12 0 C-2 -1.5 -1.5 -2 0 -12Z"/>
+      <path class="tw" style="animation-delay:2.70s" transform="translate(380 120) scale(0.7)" d="M0 -12 C1.5 -2 2 -1.5 12 0 C2 1.5 1.5 2 0 12 C-1.5 2 -2 1.5 -12 0 C-2 -1.5 -1.5 -2 0 -12Z"/>
+    </g>
+    <text class="m" x="300" y="526" text-anchor="middle" font-size="11" letter-spacing="2.4" fill="#8a6a2a">FRONT · GOLD    ⟳    BACK · THE INVENTION</text>
+    <g class="rise">
+      <text class="m" x="620" y="74" font-size="12" letter-spacing="2.6" fill="#b8892b">HONORS · INTERNATIONAL RECOGNITION</text>
+      <text class="s" x="616" y="138" font-size="62" font-weight="800" letter-spacing="-2.5" fill="url(#goldTxt)">Gold Medal.</text>
+      <text class="s" x="618" y="186" font-size="34" font-weight="700" letter-spacing="-1" fill="#1c1917">Geneva, Switzerland · 2026</text>
+      <text class="s" x="620" y="226" font-size="15.5" fill="#57534e">6th International Invention &amp; Innovation Competition</text>
+      <text class="s" x="620" y="248" font-size="15.5" fill="#57534e">for IFIA Inv Title Holders · 3–5 July 2026</text>
+      <rect x="620" y="268" width="3" height="34" rx="1.5" fill="#f5c542"/>
+      <text class="s" x="634" y="282" font-size="14.5" fill="#292524">Awarded for <tspan font-weight="800" fill="#b45309">ANKA</tspan> — an AI system for seismic collapse-risk</text>
+      <text class="s" x="634" y="300" font-size="14.5" fill="#292524">assessment and digital certification.</text>
+    </g>
+    <g class="rise" style="animation-delay:.3s">
+      <rect x="620" y="318" width="540" height="190" rx="20" fill="#ffffff"/>
+      <g clip-path="url(#cardClip)">
+        <rect class="holoS" x="620" y="318" width="540" height="190" fill="url(#holoSweep)" transform="skewX(-18)"/>
+        <path d="M620 348 Q660 340 700 348 Q740 356 780 348 Q820 340 860 348 Q900 356 940 348 Q980 340 1020 348 Q1060 356 1100 348 Q1140 340 1180 348" fill="none" stroke="#a78bfa" stroke-opacity=".05"/>
+        <path d="M620 366 Q660 358 700 366 Q740 374 780 366 Q820 358 860 366 Q900 374 940 366 Q980 358 1020 366 Q1060 374 1100 366 Q1140 358 1180 366" fill="none" stroke="#a78bfa" stroke-opacity=".05"/>
+        <path d="M620 384 Q660 376 700 384 Q740 392 780 384 Q820 376 860 384 Q900 392 940 384 Q980 376 1020 384 Q1060 392 1100 384 Q1140 376 1180 384" fill="none" stroke="#a78bfa" stroke-opacity=".05"/>
+        <path d="M620 402 Q660 394 700 402 Q740 410 780 402 Q820 394 860 402 Q900 410 940 402 Q980 394 1020 402 Q1060 410 1100 402 Q1140 394 1180 402" fill="none" stroke="#a78bfa" stroke-opacity=".05"/>
+        <path d="M620 420 Q660 412 700 420 Q740 428 780 420 Q820 412 860 420 Q900 428 940 420 Q980 412 1020 420 Q1060 428 1100 420 Q1140 412 1180 420" fill="none" stroke="#a78bfa" stroke-opacity=".05"/>
+        <path d="M620 438 Q660 430 700 438 Q740 446 780 438 Q820 430 860 438 Q900 446 940 438 Q980 430 1020 438 Q1060 446 1100 438 Q1140 430 1180 438" fill="none" stroke="#a78bfa" stroke-opacity=".05"/>
+        <path d="M620 456 Q660 448 700 456 Q740 464 780 456 Q820 448 860 456 Q900 464 940 456 Q980 448 1020 456 Q1060 464 1100 456 Q1140 448 1180 456" fill="none" stroke="#a78bfa" stroke-opacity=".05"/>
+        <path d="M620 474 Q660 466 700 474 Q740 482 780 474 Q820 466 860 474 Q900 482 940 474 Q980 466 1020 474 Q1060 482 1100 474 Q1140 466 1180 474" fill="none" stroke="#a78bfa" stroke-opacity=".05"/>
+        <path d="M620 492 Q660 484 700 492 Q740 500 780 492 Q820 484 860 492 Q900 500 940 492 Q980 484 1020 492 Q1060 500 1100 492 Q1140 484 1180 492" fill="none" stroke="#a78bfa" stroke-opacity=".05"/>
+      </g>
+      <rect x="620.75" y="318.75" width="538.5" height="188.5" rx="19.5" fill="none" stroke="url(#holo)" stroke-width="1.5"/>
+      <circle cx="690" cy="413" r="50" fill="#faf5ff" stroke="url(#holo)" stroke-width="1.2"/>
+      <g class="rosette" fill="none" stroke="url(#holo)" stroke-width=".7" opacity=".85">
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(0 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(10 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(20 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(30 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(40 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(50 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(60 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(70 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(80 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(90 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(100 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(110 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(120 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(130 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(140 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(150 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(160 690 413)"/>
+        <ellipse cx="690" cy="413" rx="42" ry="14" transform="rotate(170 690 413)"/>
+      </g>
+      <g class="rosette2" fill="none" stroke="#f5c542" stroke-width=".6" opacity=".55">
+        <ellipse cx="690" cy="413" rx="30" ry="9" transform="rotate(0 690 413)"/>
+        <ellipse cx="690" cy="413" rx="30" ry="9" transform="rotate(15 690 413)"/>
+        <ellipse cx="690" cy="413" rx="30" ry="9" transform="rotate(30 690 413)"/>
+        <ellipse cx="690" cy="413" rx="30" ry="9" transform="rotate(45 690 413)"/>
+        <ellipse cx="690" cy="413" rx="30" ry="9" transform="rotate(60 690 413)"/>
+        <ellipse cx="690" cy="413" rx="30" ry="9" transform="rotate(75 690 413)"/>
+        <ellipse cx="690" cy="413" rx="30" ry="9" transform="rotate(90 690 413)"/>
+        <ellipse cx="690" cy="413" rx="30" ry="9" transform="rotate(105 690 413)"/>
+        <ellipse cx="690" cy="413" rx="30" ry="9" transform="rotate(120 690 413)"/>
+        <ellipse cx="690" cy="413" rx="30" ry="9" transform="rotate(135 690 413)"/>
+        <ellipse cx="690" cy="413" rx="30" ry="9" transform="rotate(150 690 413)"/>
+        <ellipse cx="690" cy="413" rx="30" ry="9" transform="rotate(165 690 413)"/>
+      </g>
+      <circle cx="690" cy="413" r="19" fill="#faf5ff" stroke="#f5c542" stroke-opacity=".7"/>
+      <text class="serif" x="690" y="418" text-anchor="middle" font-size="14" font-weight="700" fill="#b45309">Inv.</text>
+      <text class="m" x="760" y="354" font-size="10.5" letter-spacing="2.2" fill="#7c6bb8">CREDENTIAL · IFIA INV TITLE</text>
+      <text class="s" x="760" y="390" font-size="30" font-weight="800" letter-spacing="-1" fill="#1c1917">Inv. Sam Afshar</text>
+      <text class="s" x="760" y="414" font-size="13" fill="#57534e">International Federation of Inventors’ Associations</text>
+      <line x1="760" y1="434" x2="1132" y2="434" stroke="#ffffff" stroke-opacity=".08"/>
+      <text class="m" x="760" y="458" font-size="10" letter-spacing="2" fill="#71717a">VERIFICATION NO.</text>
+      <text class="m" x="760" y="482" font-size="17" font-weight="700" letter-spacing="2.4" fill="#6d28d9">IR2026MAY2987SXA</text>
+      <g clip-path="url(#cardClip)"><g class="scan"><rect x="620" y="318" width="540" height="2" fill="#a78bfa" opacity=".9"/><rect x="620" y="292" width="540" height="26" fill="#a78bfa" opacity=".06"/></g></g>
+      <g class="stamp" opacity=".92"><rect x="1010" y="446" width="122" height="40" rx="6" fill="none" stroke="#059669" stroke-width="2.5"/><rect x="1015" y="451" width="112" height="30" rx="4" fill="none" stroke="#059669" stroke-width="1" stroke-opacity=".6"/><text class="m" x="1071" y="472" text-anchor="middle" font-size="14" font-weight="800" letter-spacing="2.5" fill="#059669">VERIFIED</text></g>
+    </g>
+    <rect x=".75" y=".75" width="1198.5" height="558.5" rx="27.5" fill="none" stroke="#f5c542" stroke-opacity=".22"/>
+  </g>
+</svg>

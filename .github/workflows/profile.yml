@@ -12,6 +12,7 @@ on:
     paths:
       - scripts/build_live.py
       - .github/workflows/profile.yml
+      - data/achievements.json
 
 permissions:
   contents: write

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="t d">
+  <title id="t">Learning by building</title>
+  <desc id="d">Closing banner with flowing waves and the line: learning by building.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#eef2ff"/></linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0891b2"/><stop offset=".25" stop-color="#0f172a"/><stop offset=".5" stop-color="#7c3aed"/><stop offset=".75" stop-color="#0f172a"/><stop offset="1" stop-color="#0891b2"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-600 0;0 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="1200" height="240" rx="26"/></clipPath>
+    <style>
+      .s{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Arial,sans-serif}
+      .m{font-family:'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace}
+      .wv{animation:wv 9s linear infinite}
+      .wv2{animation-duration:14s}
+      .wv3{animation-duration:20s}
+      @keyframes wv{to{transform:translateX(-600px)}}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="240" fill="url(#bg)"/>
+    <g class="wv wv3" opacity=".25"><path d="M0 170 Q150 130 300 170 T600 170 T900 170 T1200 170 T1500 170 T1800 170 V240 H0Z" fill="#a78bfa" fill-opacity=".35"/></g>
+    <g class="wv wv2" opacity=".35"><path d="M0 190 Q150 160 300 190 T600 190 T900 190 T1200 190 T1500 190 T1800 190 V240 H0Z" fill="#22d3ee" fill-opacity=".25"/></g>
+    <g class="wv"><path d="M0 205 Q150 180 300 205 T600 205 T900 205 T1200 205 T1500 205 T1800 205" fill="none" stroke="url(#w1)" stroke-width="2" stroke-opacity=".8"/></g>
+    <text class="s" x="600" y="92" text-anchor="middle" font-size="40" font-weight="800" letter-spacing="-1.5" fill="url(#txt)">learning by building.</text>
+    <text class="m" x="600" y="160" text-anchor="middle" font-size="11.5" letter-spacing="2" fill="#94a3b8">THANKS FOR SCROLLING · SEE YOU IN THE COMMITS</text>
+    <rect x=".75" y=".75" width="1198.5" height="238.5" rx="25.5" fill="none" stroke="#6366f1" stroke-opacity=".15"/>
+  </g>
+</svg>
