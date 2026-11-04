@@ -28,7 +28,7 @@
 <br />
 <br />
 
-<img src="./assets/achievements.svg" width="100%" alt="Achievement wall — Gold: IFIA 6th International Invention &amp; Innovation Competition, Geneva 2026 (ANKA). Gold: 1IDEA1W Innovation · Design · Startup competition (ANKA). Silver: INNOVERSE International Invention &amp; Innovation Expo, results 24 Aug 2026 (Fiscora). Title: IFIA “Inv”, verification IR2026MAY2987SXA." />
+<img src="./assets/achievements.svg" width="100%" alt="Achievement wall — Gold: IFIA 6th International Invention &amp; Innovation Competition, Geneva 2026 (ANKA). Gold: 1Idea1World (1I1W) international competition (ANKA). Silver: INNOVERSE International Invention &amp; Innovation Expo, results 24 Aug 2026 (Fiscora). Title: IFIA “Inv”, verification IR2026MAY2987SXA." />
 
 <details>
 <summary><b>The real medals &amp; certificates →</b></summary>
@@ -36,7 +36,7 @@
 
 <table>
   <tr>
-    <td width="33%" align="center"><img src="./assets/medal-1idea1w-gold.webp" alt="Physical 1IDEA1W gold medal won by ANKA" /><br /><sub><b>1IDEA1W</b> · Gold · ANKA</sub></td>
+    <td width="33%" align="center"><img src="./assets/medal-1idea1w-gold.webp" alt="Physical 1Idea1World (1I1W) gold medal won by ANKA" /><br /><sub><b>1Idea1World</b> · Gold · ANKA</sub></td>
     <td width="33%" align="center"><img src="./assets/medal-innoverse-silver.webp" alt="Physical INNOVERSE silver medal won by Fiscora" /><br /><sub><b>INNOVERSE</b> · Silver · Fiscora</sub></td>
     <td width="33%" align="center"><img src="./assets/cert-gold-medal.webp" alt="Original IFIA Gold Medal certificate: Inv. Sam Afshar, AI System for Seismic Collapse Risk Assessment and Digital Certification, 3–5 July 2026, Geneva, Switzerland" /><br /><sub><b>IFIA</b> · Gold · Geneva 2026</sub></td>
   </tr>
@@ -102,7 +102,7 @@
   <img src="./assets/anka.svg" width="100%" alt="02 · ANKA — earthquake-risk decision support with a TensorFlow model, four risk bands and multilingual guidance" />
 </a>
 
-**ANKA** is an earthquake-safety system built as **preliminary decision support and education** — never as a replacement for a structural engineer. 🥇 It won **two gold medals**: at the 6th International Invention & Innovation Competition for IFIA Inv Title Holders (Geneva, July 2026) and at **1IDEA1W**.
+**ANKA** is an earthquake-safety system built as **preliminary decision support and education** — never as a replacement for a structural engineer. 🥇 It won **two gold medals**: at the 6th International Invention & Innovation Competition for IFIA Inv Title Holders (Geneva, July 2026) and at the **1Idea1World (1I1W)** international competition.
 
 <details>
 <summary><b>Engineering details →</b></summary>
@@ -153,10 +153,10 @@ frame → YOLO plate detector → crop → YOLO character detector → 8 sorted 
 <div align="center">
   <br />
   <a href="https://github.com/SamAfshar2011/Persian_ALPR_project">
-    <img src="./assets/platehunter-output.webp" width="760" alt="Real PlateHunter output: two Iranian plates detected and read at night with confidence scores" />
+    <img src="./assets/platehunter-demo.webp" width="100%" alt="Demo reel of ten real PlateHunter inference outputs, zooming into each detected Iranian plate and its validated reading" />
   </a>
   <br />
-  <sub><b>Real output, not a mockup</b> — two plates detected and read at night, straight from the project’s own inference assets.</sub>
+  <sub><b>Real outputs, not a mockup</b> — ten frames from the project’s own inference assets, day and night, each zooming into the plate the model found.</sub>
 </div>
 
 <p align="right"><a href="https://github.com/SamAfshar2011/Persian_ALPR_project"><b>View source ↗</b></a></p>

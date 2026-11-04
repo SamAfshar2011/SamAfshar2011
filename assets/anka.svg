@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="t d">
-  <title id="t">02 · ANKA — earthquake-risk decision support · 2× Gold Medal (IFIA Geneva 2026, 1IDEA1W)</title>
+  <title id="t">02 · ANKA — earthquake-risk decision support · 2× Gold Medal (IFIA Geneva 2026, 1Idea1World)</title>
   <desc id="d">Project card: a building sways on a live seismograph while a TensorFlow model's collapse-risk estimate moves across four risk bands, with multilingual guidance. Preliminary and educational, not a certified inspection.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#120b05"/><stop offset=".6" stop-color="#170f08"/><stop offset="1" stop-color="#0d0805"/></linearGradient>
