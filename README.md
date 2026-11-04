@@ -4,7 +4,7 @@
 
 <br />
 
-<a href="https://samafshar2011.github.io"><img src="https://img.shields.io/badge/portfolio-samafshar2011.github.io-0b1020?style=for-the-badge&labelColor=05060b&color=7c3aed" alt="Portfolio" /></a>
+<a href="https://samafshar2011.github.io/portfolio/"><img src="https://img.shields.io/badge/portfolio-samafshar2011.github.io/portfolio/-0b1020?style=for-the-badge&labelColor=05060b&color=7c3aed" alt="Portfolio" /></a>
 <a href="https://github.com/SamAfshar2011?tab=repositories"><img src="https://img.shields.io/badge/systems_shipped-3-0b1020?style=for-the-badge&labelColor=05060b&color=0891b2" alt="Systems shipped: 3" /></a>
 <a href="https://github.com/SamAfshar2011?tab=followers"><img src="https://img.shields.io/github/followers/SamAfshar2011?style=for-the-badge&label=followers&labelColor=05060b&color=db2777" alt="GitHub followers" /></a>
 <img src="https://komarev.com/ghpvc/?username=SamAfshar2011&style=for-the-badge&label=profile+views&color=4f46e5" alt="Profile views" />
