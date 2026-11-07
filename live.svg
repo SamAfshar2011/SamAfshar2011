@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="t d">
+<title id="t">Live from GitHub</title>
+<desc id="d">Live profile card generated 2026-11-07 12:57 UTC: 140 contributions in the last 12 months, 3 medals, 10 public repositories, 11 stars, 125 days since the Geneva gold medal.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06070d"/><stop offset=".55" stop-color="#0a0d18"/><stop offset="1" stop-color="#06070d"/></linearGradient>
+  <radialGradient id="gl" cx=".85" cy=".1" r=".6"><stop stop-color="#22d3ee" stop-opacity=".10"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gl2" cx=".1" cy=".95" r=".6"><stop stop-color="#a78bfa" stop-opacity=".10"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#22d3ee" stop-opacity=".35"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#94a3b8" fill-opacity=".07"/></pattern>
+  <clipPath id="c"><rect width="1200" height="470" rx="26"/></clipPath>
+  <filter id="glw" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .s{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Arial,sans-serif}
+    .m{font-family:'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace}
+    .reel{animation:roll 2.2s cubic-bezier(.15,.75,.2,1) both}
+    @keyframes roll{from{transform:translateY(0)}to{transform:var(--to)}}
+    .live{animation:pulse 1.4s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+    .ring{transform-box:fill-box;transform-origin:center;animation:ring 1.8s ease-out infinite}
+    @keyframes ring{from{transform:scale(.6);opacity:.8}to{transform:scale(2.4);opacity:0}}
+    .grow{transform-box:fill-box;transform-origin:bottom;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}
+    @keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+    .lang{transform-box:fill-box;transform-origin:left;animation:lang 1.6s cubic-bezier(.2,.8,.2,1) both}
+    @keyframes lang{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    .type{animation:type 2.6s steps(48) .6s both}
+    @keyframes type{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .rise{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+    @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+</defs>
+<g clip-path="url(#c)">
+<rect width="1200" height="470" fill="url(#bg)"/><rect width="1200" height="470" fill="url(#dots)"/><rect width="1200" height="470" fill="url(#gl)"/><rect width="1200" height="470" fill="url(#gl2)"/>
+<g class="m">
+<rect x="44" y="34" width="86" height="28" rx="14" fill="#2a0b10" stroke="#ef4444" stroke-opacity=".6"/>
+<circle class="ring" cx="62" cy="48" r="5" fill="none" stroke="#ef4444" stroke-width="1.5"/><circle class="live" cx="62" cy="48" r="4.5" fill="#ef4444"/>
+<text x="74" y="53" font-size="12" font-weight="700" letter-spacing="2" fill="#fca5a5">LIVE</text>
+<text x="146" y="53" font-size="11.5" letter-spacing="1.8" fill="#64748b">STRAIGHT FROM THE GITHUB API · UPDATED 07 Nov 2026 · 12:57 UTC</text>
+<text x="1156" y="53" font-size="11" letter-spacing="1.4" fill="#475569" text-anchor="end">refreshes every 6 hours</text>
+</g>
+<g class="rise" style="animation-delay:0.0s">
+<rect x="44" y="84" width="263" height="128" rx="18" fill="#0c1120" stroke="#67e8f9" stroke-opacity=".28"/>
+<rect x="64" y="84" width="223" height="2" fill="#67e8f9" opacity=".7"/>
+<text class="m" x="64" y="114" font-size="11" letter-spacing="1.8" fill="#64748b">CONTRIBUTIONS</text>
+<clipPath id="t0d0"><rect x="62.0" y="130.4" width="32.5" height="50.6"/></clipPath><g clip-path="url(#t0d0)"><g class="reel s" font-size="46" font-weight="800" fill="#f8fafc" style="--to:translateY(-556.6px);transform:translateY(-556.6px);animation-delay:0.20s"><text x="64.0" y="170.0">0</text><text x="64.0" y="220.6">1</text><text x="64.0" y="271.2">2</text><text x="64.0" y="321.8">3</text><text x="64.0" y="372.4">4</text><text x="64.0" y="423.0">5</text><text x="64.0" y="473.6">6</text><text x="64.0" y="524.2">7</text><text x="64.0" y="574.8">8</text><text x="64.0" y="625.4">9</text><text x="64.0" y="676.0">0</text><text x="64.0" y="726.6">1</text><text x="64.0" y="777.2">2</text><text x="64.0" y="827.8">3</text><text x="64.0" y="878.4">4</text><text x="64.0" y="929.0">5</text><text x="64.0" y="979.6">6</text><text x="64.0" y="1030.2">7</text><text x="64.0" y="1080.8">8</text><text x="64.0" y="1131.4">9</text></g></g><clipPath id="t0d1"><rect x="90.5" y="130.4" width="32.5" height="50.6"/></clipPath><g clip-path="url(#t0d1)"><g class="reel s" font-size="46" font-weight="800" fill="#f8fafc" style="--to:translateY(-708.4px);transform:translateY(-708.4px);animation-delay:0.32s"><text x="92.5" y="170.0">0</text><text x="92.5" y="220.6">1</text><text x="92.5" y="271.2">2</text><text x="92.5" y="321.8">3</text><text x="92.5" y="372.4">4</text><text x="92.5" y="423.0">5</text><text x="92.5" y="473.6">6</text><text x="92.5" y="524.2">7</text><text x="92.5" y="574.8">8</text><text x="92.5" y="625.4">9</text><text x="92.5" y="676.0">0</text><text x="92.5" y="726.6">1</text><text x="92.5" y="777.2">2</text><text x="92.5" y="827.8">3</text><text x="92.5" y="878.4">4</text><text x="92.5" y="929.0">5</text><text x="92.5" y="979.6">6</text><text x="92.5" y="1030.2">7</text><text x="92.5" y="1080.8">8</text><text x="92.5" y="1131.4">9</text></g></g><clipPath id="t0d2"><rect x="119.0" y="130.4" width="32.5" height="50.6"/></clipPath><g clip-path="url(#t0d2)"><g class="reel s" font-size="46" font-weight="800" fill="#f8fafc" style="--to:translateY(-506.0px);transform:translateY(-506.0px);animation-delay:0.44s"><text x="121.0" y="170.0">0</text><text x="121.0" y="220.6">1</text><text x="121.0" y="271.2">2</text><text x="121.0" y="321.8">3</text><text x="121.0" y="372.4">4</text><text x="121.0" y="423.0">5</text><text x="121.0" y="473.6">6</text><text x="121.0" y="524.2">7</text><text x="121.0" y="574.8">8</text><text x="121.0" y="625.4">9</text><text x="121.0" y="676.0">0</text><text x="121.0" y="726.6">1</text><text x="121.0" y="777.2">2</text><text x="121.0" y="827.8">3</text><text x="121.0" y="878.4">4</text><text x="121.0" y="929.0">5</text><text x="121.0" y="979.6">6</text><text x="121.0" y="1030.2">7</text><text x="121.0" y="1080.8">8</text><text x="121.0" y="1131.4">9</text></g></g>
+<text class="m" x="64" y="196" font-size="11" fill="#67e8f9" opacity=".85">last 12 months</text>
+</g>
+<g class="rise" style="animation-delay:0.1s">
+<rect x="327" y="84" width="263" height="128" rx="18" fill="#0c1120" stroke="#a78bfa" stroke-opacity=".28"/>
+<rect x="347" y="84" width="223" height="2" fill="#a78bfa" opacity=".7"/>
+<text class="m" x="347" y="114" font-size="11" letter-spacing="1.8" fill="#64748b">MEDALS WON</text>
+<clipPath id="t1d0"><rect x="345.0" y="130.4" width="32.5" height="50.6"/></clipPath><g clip-path="url(#t1d0)"><g class="reel s" font-size="46" font-weight="800" fill="#f8fafc" style="--to:translateY(-657.8px);transform:translateY(-657.8px);animation-delay:0.35s"><text x="347.0" y="170.0">0</text><text x="347.0" y="220.6">1</text><text x="347.0" y="271.2">2</text><text x="347.0" y="321.8">3</text><text x="347.0" y="372.4">4</text><text x="347.0" y="423.0">5</text><text x="347.0" y="473.6">6</text><text x="347.0" y="524.2">7</text><text x="347.0" y="574.8">8</text><text x="347.0" y="625.4">9</text><text x="347.0" y="676.0">0</text><text x="347.0" y="726.6">1</text><text x="347.0" y="777.2">2</text><text x="347.0" y="827.8">3</text><text x="347.0" y="878.4">4</text><text x="347.0" y="929.0">5</text><text x="347.0" y="979.6">6</text><text x="347.0" y="1030.2">7</text><text x="347.0" y="1080.8">8</text><text x="347.0" y="1131.4">9</text></g></g>
+<text class="m" x="347" y="196" font-size="11" fill="#a78bfa" opacity=".85">2× gold · 1× silver</text>
+</g>
+<g class="rise" style="animation-delay:0.2s">
+<rect x="610" y="84" width="263" height="128" rx="18" fill="#0c1120" stroke="#f472b6" stroke-opacity=".28"/>
+<rect x="630" y="84" width="223" height="2" fill="#f472b6" opacity=".7"/>
+<text class="m" x="630" y="114" font-size="11" letter-spacing="1.8" fill="#64748b">PUBLIC REPOS</text>
+<clipPath id="t2d0"><rect x="628.0" y="130.4" width="32.5" height="50.6"/></clipPath><g clip-path="url(#t2d0)"><g class="reel s" font-size="46" font-weight="800" fill="#f8fafc" style="--to:translateY(-556.6px);transform:translateY(-556.6px);animation-delay:0.50s"><text x="630.0" y="170.0">0</text><text x="630.0" y="220.6">1</text><text x="630.0" y="271.2">2</text><text x="630.0" y="321.8">3</text><text x="630.0" y="372.4">4</text><text x="630.0" y="423.0">5</text><text x="630.0" y="473.6">6</text><text x="630.0" y="524.2">7</text><text x="630.0" y="574.8">8</text><text x="630.0" y="625.4">9</text><text x="630.0" y="676.0">0</text><text x="630.0" y="726.6">1</text><text x="630.0" y="777.2">2</text><text x="630.0" y="827.8">3</text><text x="630.0" y="878.4">4</text><text x="630.0" y="929.0">5</text><text x="630.0" y="979.6">6</text><text x="630.0" y="1030.2">7</text><text x="630.0" y="1080.8">8</text><text x="630.0" y="1131.4">9</text></g></g><clipPath id="t2d1"><rect x="656.5" y="130.4" width="32.5" height="50.6"/></clipPath><g clip-path="url(#t2d1)"><g class="reel s" font-size="46" font-weight="800" fill="#f8fafc" style="--to:translateY(-506.0px);transform:translateY(-506.0px);animation-delay:0.62s"><text x="658.5" y="170.0">0</text><text x="658.5" y="220.6">1</text><text x="658.5" y="271.2">2</text><text x="658.5" y="321.8">3</text><text x="658.5" y="372.4">4</text><text x="658.5" y="423.0">5</text><text x="658.5" y="473.6">6</text><text x="658.5" y="524.2">7</text><text x="658.5" y="574.8">8</text><text x="658.5" y="625.4">9</text><text x="658.5" y="676.0">0</text><text x="658.5" y="726.6">1</text><text x="658.5" y="777.2">2</text><text x="658.5" y="827.8">3</text><text x="658.5" y="878.4">4</text><text x="658.5" y="929.0">5</text><text x="658.5" y="979.6">6</text><text x="658.5" y="1030.2">7</text><text x="658.5" y="1080.8">8</text><text x="658.5" y="1131.4">9</text></g></g>
+<text class="m" x="630" y="196" font-size="11" fill="#f472b6" opacity=".85">11 stars earned</text>
+</g>
+<g class="rise" style="animation-delay:0.3s">
+<rect x="893" y="84" width="263" height="128" rx="18" fill="#0c1120" stroke="#fbbf24" stroke-opacity=".28"/>
+<rect x="913" y="84" width="223" height="2" fill="#fbbf24" opacity=".7"/>
+<text class="m" x="913" y="114" font-size="11" letter-spacing="1.8" fill="#64748b">DAYS SINCE GOLD</text>
+<clipPath id="t3d0"><rect x="911.0" y="130.4" width="32.5" height="50.6"/></clipPath><g clip-path="url(#t3d0)"><g class="reel s" font-size="46" font-weight="800" fill="#f8fafc" style="--to:translateY(-556.6px);transform:translateY(-556.6px);animation-delay:0.65s"><text x="913.0" y="170.0">0</text><text x="913.0" y="220.6">1</text><text x="913.0" y="271.2">2</text><text x="913.0" y="321.8">3</text><text x="913.0" y="372.4">4</text><text x="913.0" y="423.0">5</text><text x="913.0" y="473.6">6</text><text x="913.0" y="524.2">7</text><text x="913.0" y="574.8">8</text><text x="913.0" y="625.4">9</text><text x="913.0" y="676.0">0</text><text x="913.0" y="726.6">1</text><text x="913.0" y="777.2">2</text><text x="913.0" y="827.8">3</text><text x="913.0" y="878.4">4</text><text x="913.0" y="929.0">5</text><text x="913.0" y="979.6">6</text><text x="913.0" y="1030.2">7</text><text x="913.0" y="1080.8">8</text><text x="913.0" y="1131.4">9</text></g></g><clipPath id="t3d1"><rect x="939.5" y="130.4" width="32.5" height="50.6"/></clipPath><g clip-path="url(#t3d1)"><g class="reel s" font-size="46" font-weight="800" fill="#f8fafc" style="--to:translateY(-607.2px);transform:translateY(-607.2px);animation-delay:0.77s"><text x="941.5" y="170.0">0</text><text x="941.5" y="220.6">1</text><text x="941.5" y="271.2">2</text><text x="941.5" y="321.8">3</text><text x="941.5" y="372.4">4</text><text x="941.5" y="423.0">5</text><text x="941.5" y="473.6">6</text><text x="941.5" y="524.2">7</text><text x="941.5" y="574.8">8</text><text x="941.5" y="625.4">9</text><text x="941.5" y="676.0">0</text><text x="941.5" y="726.6">1</text><text x="941.5" y="777.2">2</text><text x="941.5" y="827.8">3</text><text x="941.5" y="878.4">4</text><text x="941.5" y="929.0">5</text><text x="941.5" y="979.6">6</text><text x="941.5" y="1030.2">7</text><text x="941.5" y="1080.8">8</text><text x="941.5" y="1131.4">9</text></g></g><clipPath id="t3d2"><rect x="968.0" y="130.4" width="32.5" height="50.6"/></clipPath><g clip-path="url(#t3d2)"><g class="reel s" font-size="46" font-weight="800" fill="#f8fafc" style="--to:translateY(-759.0px);transform:translateY(-759.0px);animation-delay:0.89s"><text x="970.0" y="170.0">0</text><text x="970.0" y="220.6">1</text><text x="970.0" y="271.2">2</text><text x="970.0" y="321.8">3</text><text x="970.0" y="372.4">4</text><text x="970.0" y="423.0">5</text><text x="970.0" y="473.6">6</text><text x="970.0" y="524.2">7</text><text x="970.0" y="574.8">8</text><text x="970.0" y="625.4">9</text><text x="970.0" y="676.0">0</text><text x="970.0" y="726.6">1</text><text x="970.0" y="777.2">2</text><text x="970.0" y="827.8">3</text><text x="970.0" y="878.4">4</text><text x="970.0" y="929.0">5</text><text x="970.0" y="979.6">6</text><text x="970.0" y="1030.2">7</text><text x="970.0" y="1080.8">8</text><text x="970.0" y="1131.4">9</text></g></g>
+<text class="m" x="913" y="196" font-size="11" fill="#fbbf24" opacity=".85">Geneva · 5 Jul 2026</text>
+</g>
+<g class="rise" style="animation-delay:.4s">
+<rect x="44" y="232" width="556" height="196" rx="18" fill="#0b0f1a" stroke="#a5b4fc" stroke-opacity=".16"/>
+<rect x="44" y="232" width="556" height="36" rx="18" fill="#0f1426"/><rect x="44" y="250" width="556" height="18" fill="#0f1426"/>
+<circle cx="68" cy="250" r="5.5" fill="#ff5f57"/>
+<circle cx="88" cy="250" r="5.5" fill="#febc2e"/>
+<circle cx="108" cy="250" r="5.5" fill="#28c840"/>
+<text class="m" x="576" y="255" font-size="11" fill="#475569" text-anchor="end">latest commit</text>
+<text class="m" x="68" y="300" font-size="13.5" fill="#64748b">$ <tspan fill="#e2e8f0">git log -1 --author=sam</tspan></text>
+<text class="m" x="68" y="330" font-size="12.5" fill="#fbbf24">● <tspan fill="#94a3b8">repo</tspan>  <tspan fill="#67e8f9">Persian_ALPR_project</tspan></text>
+<g class="type"><text class="m" x="68" y="362" font-size="15" font-weight="700" fill="#f8fafc">Revise README for improved project documentation</text></g>
+<text class="m" x="68" y="392" font-size="12" fill="#64748b">23 Sep 2026 · 19:14 UTC</text>
+<text class="m" x="68" y="414" font-size="13" fill="#64748b">$ <tspan class="cur" fill="#a78bfa">▍</tspan></text>
+</g>
+<g class="rise" style="animation-delay:.5s">
+<rect x="620" y="232" width="536" height="196" rx="18" fill="#0b0f1a" stroke="#a5b4fc" stroke-opacity=".16"/>
+<text class="m" x="644" y="262" font-size="11" letter-spacing="1.8" fill="#64748b">LANGUAGES · BY BYTES ACROSS MY REPOS</text>
+<clipPath id="lb"><rect x="644" y="276" width="488" height="12" rx="6"/></clipPath><g clip-path="url(#lb)">
+<rect class="lang" style="animation-delay:0.60s" x="644.0" y="276" width="195.6" height="12" fill="#DA5B0B"/>
+<rect class="lang" style="animation-delay:0.72s" x="839.6" y="276" width="83.9" height="12" fill="#3178c6"/>
+<rect class="lang" style="animation-delay:0.84s" x="923.4" y="276" width="76.9" height="12" fill="#e34c26"/>
+<rect class="lang" style="animation-delay:0.96s" x="1000.4" y="276" width="50.0" height="12" fill="#663399"/>
+<rect class="lang" style="animation-delay:1.08s" x="1050.4" y="276" width="45.2" height="12" fill="#f1e05a"/>
+<rect class="lang" style="animation-delay:1.20s" x="1095.5" y="276" width="36.5" height="12" fill="#3572A5"/>
+</g>
+<circle cx="649" cy="308" r="4.5" fill="#DA5B0B"/><text class="m" x="660" y="312" font-size="11.5" fill="#cbd5e1">Jupyter <tspan fill="#64748b">40.1%</tspan></text>
+<circle cx="815" cy="308" r="4.5" fill="#3178c6"/><text class="m" x="826" y="312" font-size="11.5" fill="#cbd5e1">TS <tspan fill="#64748b">17.2%</tspan></text>
+<circle cx="981" cy="308" r="4.5" fill="#e34c26"/><text class="m" x="992" y="312" font-size="11.5" fill="#cbd5e1">HTML <tspan fill="#64748b">15.8%</tspan></text>
+<circle cx="649" cy="328" r="4.5" fill="#663399"/><text class="m" x="660" y="332" font-size="11.5" fill="#cbd5e1">CSS <tspan fill="#64748b">10.2%</tspan></text>
+<circle cx="815" cy="328" r="4.5" fill="#f1e05a"/><text class="m" x="826" y="332" font-size="11.5" fill="#cbd5e1">JS <tspan fill="#64748b">9.3%</tspan></text>
+<circle cx="981" cy="328" r="4.5" fill="#3572A5"/><text class="m" x="992" y="332" font-size="11.5" fill="#cbd5e1">Python <tspan fill="#64748b">7.5%</tspan></text>
+<text class="m" x="644" y="368" font-size="11" letter-spacing="1.8" fill="#64748b">ACTIVITY · 52 WEEKS</text>
+<rect class="grow" style="animation-delay:0.800s" x="644.0" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.812s" x="653.4" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.824s" x="662.8" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.836s" x="672.2" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.848s" x="681.5" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.860s" x="690.9" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.872s" x="700.3" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.884s" x="709.7" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.896s" x="719.1" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.908s" x="728.5" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.920s" x="737.8" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.932s" x="747.2" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.944s" x="756.6" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.956s" x="766.0" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.968s" x="775.4" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.980s" x="784.8" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:0.992s" x="794.2" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.004s" x="803.5" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.016s" x="812.9" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.028s" x="822.3" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.040s" x="831.7" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.052s" x="841.1" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.064s" x="850.5" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.076s" x="859.8" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.088s" x="869.2" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.100s" x="878.6" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.112s" x="888.0" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.124s" x="897.4" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.136s" x="906.8" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.148s" x="916.2" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.160s" x="925.5" y="372.0" width="7.4" height="42.0" rx="1.5" fill="url(#bar)" opacity="1.00"/>
+<rect class="grow" style="animation-delay:1.172s" x="934.9" y="399.3" width="7.4" height="14.7" rx="1.5" fill="url(#bar)" opacity="0.53"/>
+<rect class="grow" style="animation-delay:1.184s" x="944.3" y="399.3" width="7.4" height="14.7" rx="1.5" fill="url(#bar)" opacity="0.53"/>
+<rect class="grow" style="animation-delay:1.196s" x="953.7" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.208s" x="963.1" y="385.1" width="7.4" height="28.9" rx="1.5" fill="url(#bar)" opacity="0.78"/>
+<rect class="grow" style="animation-delay:1.220s" x="972.5" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.232s" x="981.8" y="400.4" width="7.4" height="13.6" rx="1.5" fill="url(#bar)" opacity="0.51"/>
+<rect class="grow" style="animation-delay:1.244s" x="991.2" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.256s" x="1000.6" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.268s" x="1010.0" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.280s" x="1019.4" y="391.5" width="7.4" height="22.5" rx="1.5" fill="url(#bar)" opacity="0.67"/>
+<rect class="grow" style="animation-delay:1.292s" x="1028.8" y="401.7" width="7.4" height="12.3" rx="1.5" fill="url(#bar)" opacity="0.49"/>
+<rect class="grow" style="animation-delay:1.304s" x="1038.2" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.316s" x="1047.5" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.328s" x="1056.9" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.340s" x="1066.3" y="403.2" width="7.4" height="10.8" rx="1.5" fill="url(#bar)" opacity="0.47"/>
+<rect class="grow" style="animation-delay:1.352s" x="1075.7" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.364s" x="1085.1" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.376s" x="1094.5" y="401.7" width="7.4" height="12.3" rx="1.5" fill="url(#bar)" opacity="0.49"/>
+<rect class="grow" style="animation-delay:1.388s" x="1103.8" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.400s" x="1113.2" y="410.0" width="7.4" height="4.0" rx="1.5" fill="url(#bar)" opacity="0.35"/>
+<rect class="grow" style="animation-delay:1.412s" x="1122.6" y="392.7" width="7.4" height="21.3" rx="1.5" fill="url(#bar)" opacity="0.65"/>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="468.5" rx="25.5" fill="none" stroke="#a5b4fc" stroke-opacity=".15"/>
+</g></svg>
